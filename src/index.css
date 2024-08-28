@@ -3,14 +3,14 @@
 @tailwind utilities;
 
 body {
-    background: #191a1c;
-    color: #8f8f90;
+    background: #fff;
+    color: #000;
 }
 
 #name {
     --webkit-text-stroke: 5px black;
 }
-
+/* 
 #name::before {
     position: absolute;
     content: " tutors ";
@@ -19,7 +19,7 @@ body {
     overflow: hidden;
     border-right: 3px solid grey;
 
-}
+} */
 @keyframes filling {
     0% {width: 0%;}
     50% {width: 100%;}

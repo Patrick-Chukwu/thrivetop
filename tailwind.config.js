@@ -6,8 +6,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: '#8f8f90',
-        secondary: '#e2e4e8',
+        primary: '#3BA0CC',
+        secondary: '#F36B37',
         black: '#000',
         white: '#fff',
         silver: "#454545",
@@ -19,7 +19,7 @@ export default {
         lightash: '#323232',
         lightpowder: '#E9EFFD',
         sidebarcolor: '#000123',
-        brand: '#191a1c',
+        brand: '#4E4E50',
       },
       screens: {
         'sm': '640px',

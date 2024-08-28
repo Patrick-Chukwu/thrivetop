@@ -12,8 +12,8 @@ const Home = () => {
     <div className='flex flex-col mt-24'>
         <Navbar/>
         <section className="p-2 flex flex-col items-left justify-start items-center">
-          <div className=' pl-2'>
-          <h2 className='text-primary text-2xl text-left ' >Personal tutoring from top <span id="name" className='relative font-black text-4xl'> tutors </span>  matched to your child's needs. Crack exams, sharpen a new skill and get better grades.</h2>
+          <div className=' pl-2 md:px-16'>
+          <h2 className='text-primary font-black text-4xl text-left ' >Personal tutoring from top <span id="name" className='relative font-black text-4xl'> tutors </span>  matched to your child's needs. Crack exams, sharpen a new skill and get better grades.</h2>
        
       
           <p className='text-secondary text-sm text-left'>I help businesses and personal brands build amazing web applications and products with  awesome user experiences.</p>
