@@ -30,7 +30,7 @@ const Navbar = () => {
           <a href="https://www.linkedin.com/in/patrick-chukwu/" target='_blank' className='border-none rounded-full p-1 bg-primary text-black hover:text-black hover:bg-white'><FaLinkedin/></a>
      
           <a href="https://x.com/PattyFean" target='_blank' className='border-none rounded-full p-1 bg-primary text-black hover:text-black hover:bg-white'><FaXTwitter/></a> */}
-          <a href="https://calendar.app.google/zYzRKYgvBGGoMdw18" target='_blank' className='text-white bg-secondary px-4 py-2 rounded-md hover:bg-white hover:text-bcolor font-medium hover:border border-black'>Register</a>
+          <a href="https://calendar.app.google/zYzRKYgvBGGoMdw18" target='_blank' className='text-white bg-secondary px-4 py-2 rounded-md hover:bg-white hover:text-bcolor font-medium hover:border border-black'>Enroll</a>
         </div>
         <div className="-mr-2 flex lg:hidden">
             <button
@@ -78,7 +78,7 @@ to="/about" className="text-brand font-normal text-xl block px-3 py-2 rounded-md
             Tutors
           </Link>
        <a href='https://calendar.app.google/zYzRKYgvBGGoMdw18' target='_blank' onClick={closeMenu}
- className='bg-primary text-black py-2 px-4 w-fit font-medium hover:text-white rounded-md lg:rounded-lg md:rounded-md xl:rounded-xl '>Schedule a call</a>
+ className='bg-secondary text-white py-2 px-4 w-fit font-medium hover:text-white rounded-md lg:rounded-lg md:rounded-md xl:rounded-xl '>Enroll</a>
         </div>
       </div>
     </nav>
