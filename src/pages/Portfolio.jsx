@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import Projects from '../components/Projects'
+import Footer from '../components/Footer'
 
 const Portfolio = () => {
   return (
@@ -10,6 +11,7 @@ const Portfolio = () => {
       <p className='text-secondary text-sm p-4 text-center w-fit mx-auto'>We prepare your child to excel in different courses</p>
 
       {/* <Projects/> */}
+      <Footer/>
     </div>
   )
 }

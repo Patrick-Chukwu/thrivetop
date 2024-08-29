@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar'
 import frontend from '../assets/stocks/FRONTEND-TECHNOLOGIES.jpg'
 import blockchain from '../assets/stocks/blockchain.webp'
 import ikere from '../assets/stocks/ikeretech.webp'
+import Footer from '../components/Footer'
 
 
 const Blog = () => {
@@ -46,6 +47,7 @@ const Blog = () => {
         </div> */}
         </a>
       </div>
+      <Footer/>
       </div>
   )
 }
