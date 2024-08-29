@@ -16,7 +16,7 @@ const Home = () => {
           <h2 className='text-primary font-black text-4xl text-left ' >Personal tutoring from amazing <span id="name" className='relative font-black text-4xl'> tutors </span>  matched to your child's needs. </h2>
        
       
-          <p className='text-secondary text-2xl text-left'>Crack exams, sharpen a new skill and get better grades.</p>
+          <p className='text-secondary text-2xl text-left'>Prepare for exams, learn a new skill and get better grades.</p>
 
           </div>
           
