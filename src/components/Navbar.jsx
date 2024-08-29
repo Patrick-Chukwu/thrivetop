@@ -30,7 +30,7 @@ const Navbar = () => {
           <a href="https://www.linkedin.com/in/patrick-chukwu/" target='_blank' className='border-none rounded-full p-1 bg-primary text-black hover:text-black hover:bg-white'><FaLinkedin/></a>
      
           <a href="https://x.com/PattyFean" target='_blank' className='border-none rounded-full p-1 bg-primary text-black hover:text-black hover:bg-white'><FaXTwitter/></a> */}
-          <a href="https://calendar.app.google/zYzRKYgvBGGoMdw18" target='_blank' className='text-white bg-bcolor px-4 py-2 rounded-md hover:bg-white hover:text-bcolor font-medium border border-black'>Register</a>
+          <a href="https://calendar.app.google/zYzRKYgvBGGoMdw18" target='_blank' className='text-white bg-secondary px-4 py-2 rounded-md hover:bg-white hover:text-bcolor font-medium hover:border border-black'>Register</a>
         </div>
         <div className="-mr-2 flex lg:hidden">
             <button
@@ -59,23 +59,23 @@ const Navbar = () => {
       </div>
    
           <div className={`${isOpen ? 'block' : 'hidden'} lg:hidden`} id="mobile-menu">
-        <div className="max-h-dvh px-1 pt-2 pb-60 space-y-1 sm:px-3 flex flex-col gap-2 text-xl font-normal text-primary relative z-50 bg-brand">
+        <div className="min-h-dvh px-1 pt-2 pb-60 space-y-1 sm:px-3 flex flex-col gap-2 text-xl font-normal text-brand relative z-50 bg-white">
           <Link onClick={closeMenu}
- to="/" className="text-white font-normal text-xl block px-3 py-2 rounded-md  hover:bg-primary">
+ to="/" className="text-brand font-normal text-xl block px-3 py-2 rounded-md  hover:bg-primary">
             Home
           </Link>
 
           <Link onClick={closeMenu}
-to="/about" className="text-white font-normal text-xl block px-3 py-2 rounded-md hover:bg-primary">
+to="/about" className="text-brand font-normal text-xl block px-3 py-2 rounded-md hover:bg-primary">
             About Us
           </Link>
           <Link onClick={closeMenu}
- to="/portfolio" className="text-white font-normal text-xl block px-3 py-2 rounded-md hover:bg-primary">
-            Portfolio
+ to="/portfolio" className="text-brand font-normal text-xl block px-3 py-2 rounded-md hover:bg-primary">
+            Courses
           </Link>
           <Link onClick={closeMenu}
- to="/blog" className="text-white font-normal text-xl block px-3 py-2 rounded-md hover:bg-primary">
-            Blog
+ to="/blog" className="text-brand font-normal text-xl block px-3 py-2 rounded-md hover:bg-primary">
+            Tutors
           </Link>
        <a href='https://calendar.app.google/zYzRKYgvBGGoMdw18' target='_blank' onClick={closeMenu}
  className='bg-primary text-black py-2 px-4 w-fit font-medium hover:text-white rounded-md lg:rounded-lg md:rounded-md xl:rounded-xl '>Schedule a call</a>
