@@ -39,6 +39,7 @@ const Home = () => {
 
         <section className='py-4 h-dvh'>
         {/* <ImageSlider/> */}
+        <h2 className="text-3xl font-bold text-primary text-center w-full px-4">Learn from a community of top tutors.</h2>
 
         </section>
 
