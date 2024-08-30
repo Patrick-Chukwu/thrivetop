@@ -12,7 +12,7 @@ const testimonials = [
   {
     id: 2,
     image: 'https://via.placeholder.com/150',
-    text: 'Working with Thrivetop Academy has been an incredibly rewarding experience. The organization has significantly contributed to my personal and professional growth, providing a nurturing environment for continuous development. I take pride in the positive impact I’ve had on the academic achievements of numerous students worldwide. Thrivetop Academy’s dedication to educational excellence and innovation makes me proud to be part of this remarkable team.',
+    text: 'Working with Thrivetop Academy has been an incredibly rewarding experience. The organization has significantly contributed to my personal and professional growth, providing a nurturing environment for continuous development. I take pride in the positive impact I’ve had on the academic achievements of numerous students worldwide. ',
     name: 'Donald Erharhine ',
     title: 'BSc. Mathematics',
   },
@@ -26,7 +26,7 @@ const testimonials = [
   {
     id: 4,
     image: 'https://via.placeholder.com/150',
-    text: "I've had a fantastic experience working with ThriveTop Academy over the past two months, and I've seen significant improvements in my skills and knowledge. The organization have exceeded my expectations and provided me with valuable insight and skills that have already impacted my career. It has been a journey of growth and learning, and I'm so much grateful for the experience. ",
+    text: "I've had a fantastic experience working with ThriveTop Academy, and I've seen significant improvements in my skills and knowledge. The organization have exceeded my expectations and provided me with valuable insight and skills that have already impacted my career. It has been a journey of growth and learning, and I'm so much grateful for the experience. ",
     name: 'Deborah Salau',
     title: 'MSc.',
   },
