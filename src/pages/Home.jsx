@@ -7,6 +7,7 @@ import Footer from '../components/Footer'
 import Projects from '../components/Projects'
 import Popout from '../components/Popout'
 import girl from '../assets/girl.webp'
+import TestimonialSection from '../components/TestimonialSection'
 const Home = () => {
   return (
     <div className='flex flex-col'>
@@ -49,6 +50,8 @@ const Home = () => {
       {/* <h2 className="text-3xl text-secondary  text-center font-bold px-4">Selected works</h2> */}
 
         {/* <Projects/> */}
+
+        <TestimonialSection/>
       </section>
         <Footer/>
     </div>

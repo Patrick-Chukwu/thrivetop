@@ -17,7 +17,7 @@ const About = () => {
         <div className=" gap-4 justify-between items-center max-w-[700px]">
         <p className="text-sm text-brand md:text-xl font-medium p-4 text-left">
 
-        At Thrivetop Academy, we are committed to empowering students from around the world with high-quality education that prepares them for academic excellence and personal growth. Our academy offers comprehensive training for various key examinations, including GCSE/IGCSE (EDEXCEL, AQA, OCR), O/A - Level, SAT, and 11+ Grammar School Entrance Exams. We also provide specialized instruction for students in Grade/Year 1 - 11, as well as for those preparing for WASSCE/NECO/UTME and COMMON ENTRANCE (Primary 5 NG).
+        We are committed to empowering students from around the world with high-quality education that prepares them for academic excellence and personal growth. Our academy offers comprehensive training for various key examinations, including GCSE/IGCSE (EDEXCEL, AQA, OCR), O/A - Level, SAT, and 11+ Grammar School Entrance Exams. We also provide specialized instruction for students in Grade/Year 1 - 11, as well as for those preparing for WASSCE/NECO/UTME and COMMON ENTRANCE (Primary 5 NG).
 
 
 </p>
@@ -33,10 +33,10 @@ const About = () => {
     </div>
 
     {/* second */}
-    <div className="gap-4 flex flex-col justify-center items-center text-brand text-center sm:p-8 py-4 border border-primary hover:bg-primary size-[350px] hover:text-white sm:w-[500px] sm:h-[500x] rounded-2xl shadow-xl">
+    <div className="gap-4 flex flex-col justify-center items-center text-brand text-center sm:p-8 py-4 border border-primary hover:bg-primary size-[350px]  sm:w-[500px] sm:h-[500x] rounded-2xl shadow-xl">
       <img className='size-12' src={vision} alt="vision icon" />
       <h4 className="font-semibold text-3xl hover:text-white">Vision</h4>
-      <p className="text-left text-xl font-light px-2 sm:p-4">To be a global leader in innovative education, empowering students to excel academically, personally, and professionally through a seamless blend of virtual and physical learning experiences.</p>
+      <p className=" text-xl font-light px-2 sm:p-4">To be a global leader in innovative education, empowering students to excel academically, personally, and professionally.</p>
     </div>
         </div>
       </div>
