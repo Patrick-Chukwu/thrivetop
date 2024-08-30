@@ -19,7 +19,7 @@ const Home = () => {
           <h2 className='text-white font-black text-4xl text-left ' >A better and <span className="text-brand">thriving</span> future for your kids.</h2>
        
       
-          <p className='pt-4 md:pt-8 text-white text-2xl text-left'>Get personalized tutoring from <span className="text-brand">top</span> tutors  matched to your child's needs. We help children prepare for exams, learn a new skill and get better grades.
+          <p className='pt-4 md:pt-8 text-white text-2xl text-left'>Get personalized tutoring from <span className="text-brand text-3xl font-black">top</span> tutors  matched to your child's needs. We help children prepare for exams, learn a new skill and get better grades.
           </p>
 
           </div>
