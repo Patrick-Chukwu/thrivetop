@@ -8,6 +8,7 @@ import Projects from '../components/Projects'
 import Popout from '../components/Popout'
 import girl from '../assets/girl.webp'
 import TestimonialSection from '../components/TestimonialSection'
+import Impact from '../components/Impact'
 const Home = () => {
   return (
     <div className='flex flex-col'>
@@ -40,7 +41,7 @@ const Home = () => {
         <section className='py-4 h-dvh'>
         {/* <ImageSlider/> */}
         <h2 className="text-3xl font-bold text-primary text-center w-full px-4">Learn from a community of top tutors.</h2>
-
+<Impact/>
         </section>
 
         <section>
