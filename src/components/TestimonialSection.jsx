@@ -63,6 +63,7 @@ const TestimonialSection = () => {
 
   return (
     <div className="flex flex-col items-center justify-center py-10 bg-primary">
+        <h2 className="text-3xl font-bold text-white text-center w-full">Hear from our tutors</h2>
     <div className="relative w-full overflow-hidden">
       <div
         className="flex transition-transform duration-500 ease-in-out"
