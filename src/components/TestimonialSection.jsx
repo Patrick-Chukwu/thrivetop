@@ -56,14 +56,14 @@ const TestimonialSection = () => {
     useEffect(() => {
         const interval = setInterval(() => {
           handleNext();
-        }, 3000); // 30 seconds
+        }, 5000); // 30 seconds
     
         return () => clearInterval(interval);
       }, []);
 
   return (
     <div className="flex flex-col items-center justify-center py-10 bg-primary">
-    <div className="relative w-full max-w-4xl overflow-hidden">
+    <div className="relative w-full overflow-hidden">
       <div
         className="flex transition-transform duration-500 ease-in-out"
         style={{ transform: `translateX(-${(currentIndex * 100) }%)` }}
@@ -87,7 +87,7 @@ const TestimonialSection = () => {
         ))}
       </div>
     </div>
-    <div className="flex mt-6 space-x-4">
+    <div className="flex mt-2 space-x-4">
       <button
         onClick={handlePrev}
         className="p-2 px-3 bg-secondary text-white rounded-full hover:bg-brand"
