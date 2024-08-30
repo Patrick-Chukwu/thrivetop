@@ -77,8 +77,8 @@ to="/about" className="text-brand font-normal text-xl block px-3 py-2 rounded-md
  to="/blog" className="text-brand font-normal text-xl block px-3 py-2 rounded-md hover:bg-primary">
             Tutors
           </Link>
-       <a href='https://calendar.app.google/zYzRKYgvBGGoMdw18' target='_blank' onClick={closeMenu}
- className='bg-secondary text-white py-2 px-4 w-fit font-medium hover:text-white rounded-md lg:rounded-lg md:rounded-md xl:rounded-xl '>Enroll</a>
+       <a href='https://docs.google.com/forms/d/e/1FAIpQLSegEAUdaOrefzbohIBRn4nnL_4J9T5PNXqwqmvRH6G2iqNV4Q/viewform?usp=sf_link' target='_blank' onClick={closeMenu}
+ className='bg-secondary text-white py-2 px-4 w-fit font-medium hover:text-white rounded-md lg:rounded-lg md:rounded-md xl:rounded-xl '>Get Started</a>
         </div>
       </div>
     </nav>
