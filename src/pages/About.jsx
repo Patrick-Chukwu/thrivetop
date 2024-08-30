@@ -1,5 +1,7 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
+
 import mission from  '../assets/mission.svg'
 import vision from  '../assets/vision.svg'
 

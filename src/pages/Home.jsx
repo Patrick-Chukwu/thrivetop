@@ -21,7 +21,7 @@ const Home = () => {
           </div>
           
           <div className="flex justify-between gap-8 w-[95%] items-center p-2 md:w-1/2 mx-auto my-4">
-          <a href="https://calendar.app.google/zYzRKYgvBGGoMdw18" target='_blank' className='text-white bg-secondary px-4 py-2 rounded-md hover:bg-white hover:text-bcolor font-medium border border-black'>Register</a>
+          <a href="https://calendar.app.google/zYzRKYgvBGGoMdw18" target='_blank' className='text-white w-3/4 text-center bg-secondary px-4 py-2 rounded-md hover:bg-white hover:text-bcolor font-medium border border-black'>Register</a>
          
          {/* <div className="flex justify-center items-center gap-2">
          <a href="https://github.com/Patrick-Chukwu" target='_blank' className='border-none rounded-full p-1 bg-primary text-black hover:text-black hover:bg-white'><FaGithub/></a>
