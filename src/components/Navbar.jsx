@@ -30,7 +30,7 @@ const Navbar = () => {
           <a href="https://www.linkedin.com/in/patrick-chukwu/" target='_blank' className='border-none rounded-full p-1 bg-primary text-black hover:text-black hover:bg-white'><FaLinkedin/></a>
      
           <a href="https://x.com/PattyFean" target='_blank' className='border-none rounded-full p-1 bg-primary text-black hover:text-black hover:bg-white'><FaXTwitter/></a> */}
-          <a href="https://calendar.app.google/zYzRKYgvBGGoMdw18" target='_blank' className='text-white bg-secondary px-4 py-2 rounded-md hover:bg-white hover:text-bcolor font-medium hover:border border-black'>Enroll</a>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSegEAUdaOrefzbohIBRn4nnL_4J9T5PNXqwqmvRH6G2iqNV4Q/viewform?usp=sf_link" target='_blank' className='text-white bg-secondary px-4 py-2 rounded-md hover:bg-white hover:text-bcolor font-medium hover:border border-black'>Get Started</a>
         </div>
         <div className="-mr-2 flex lg:hidden">
             <button
