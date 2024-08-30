@@ -13,14 +13,14 @@ const Navbar = () => {
         setIsOpen(false);
     };
   return (
-    <nav className='p-4 border-b border-bcolor bg-white  fixed top-0 left-0 w-full z-50 text-brand '>
+    <nav className='p-4  bg-white  fixed top-0 left-0 w-full z-50 text-brand '>
       <div className='flex items-center justify-between'>
 
         <Link to="/"><img src={logo} className='bg-white w-36 px-2 py-1 h-12' alt="Thrivetop Academy Logo" /></Link>
         <div className="hidden md:flex justify-between items-center gap-4">
             <Link to="/" className='font-medium text-xl hover:text-primary'>Home</Link>
             <Link to="/about" className='font-medium text-xl hover:text-primary'>About Us</Link>
-            <Link to="/portfolio" className='font-medium text-xl hover:text-primary hidden md:block'>Courses</Link>
+            <Link to="/portfolio" className='font-medium text-xl hover:text-primary hidden md:block'>Services</Link>
             <Link to="/blog" className='font-medium text-xl hover:text-primary hidden md:block'>Tutors</Link>
         </div>
         <div className="flex items-center justify-center gap-2">
@@ -71,7 +71,7 @@ to="/about" className="text-brand font-normal text-xl block px-3 py-2 rounded-md
           </Link>
           <Link onClick={closeMenu}
  to="/portfolio" className="text-brand font-normal text-xl block px-3 py-2 rounded-md hover:bg-primary">
-            Courses
+            Services
           </Link>
           <Link onClick={closeMenu}
  to="/blog" className="text-brand font-normal text-xl block px-3 py-2 rounded-md hover:bg-primary">

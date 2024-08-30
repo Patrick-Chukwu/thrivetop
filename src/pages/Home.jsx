@@ -6,33 +6,36 @@ import LogoCarousel from '../components/LogoCarousel'
 import Footer from '../components/Footer'
 import Projects from '../components/Projects'
 import Popout from '../components/Popout'
-
+import girl from '../assets/girl.webp'
 const Home = () => {
   return (
     <div className='flex flex-col'>
         <Navbar/>
-        <section className="pt-24 bg-primary min-h-dvh flex  flex-col items-left justify-start items-center">
+        <section className="pt-24 bg-primary min-h-dvh flex  flex-col md:flex-row  justify-start items-start">
+          <div className="flex flex-col">
+
+       
           <div className=' pl-2 md:px-16'>
-          <h2 className='text-white font-black text-4xl text-left ' >Prepare for exams, learn a new skill and get better grades.</h2>
+          <h2 className='text-white font-black text-4xl text-left ' >A better and thriving future for your kids.</h2>
        
       
-          <p className='pt-4 text-white text-2xl text-left'>Get personalized tutoring from top tutors  matched to your child's needs. </p>
+          <p className='pt-4 text-white text-2xl text-left'>Get personalized tutoring from top tutors  matched to your child's needs. We help children prepare for exams, learn a new skill and get better grades.
+          </p>
 
           </div>
           
           <div className="flex justify-center gap-8 w-[95%] items-center p-2 md:w-1/2 mx-auto my-4">
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSegEAUdaOrefzbohIBRn4nnL_4J9T5PNXqwqmvRH6G2iqNV4Q/viewform?usp=sf_link" target='_blank' className='text-white w-full text-center bg-secondary px-4 py-2 rounded-md hover:bg-white hover:text-bcolor font-medium '>Get Started</a>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSegEAUdaOrefzbohIBRn4nnL_4J9T5PNXqwqmvRH6G2iqNV4Q/viewform?usp=sf_link" target='_blank' className='text-white w-full text-xl text-center bg-secondary px-4 py-2 rounded-md hover:bg-white hover:text-bcolor font-medium '>Get Started</a>
          
-         {/* <div className="flex justify-center items-center gap-2">
-         <a href="https://github.com/Patrick-Chukwu" target='_blank' className='border-none rounded-full p-1 bg-primary text-black hover:text-black hover:bg-white'><FaGithub/></a>
-         <a href="mailto:chukwupatrickify@gmail.com" target='_blank' className='border-none rounded-full p-1 bg-primary text-black hover:text-black hover:bg-white'><FaMailBulk/></a>
-         </div> */}
+       
           
           </div>
-          <Popout/>
+          </div>
 
-
+<img src={girl} alt="" />
         </section>
+        <Popout/>
+
         <section className='py-4 h-[500px]'>
         {/* <ImageSlider/> */}
 
