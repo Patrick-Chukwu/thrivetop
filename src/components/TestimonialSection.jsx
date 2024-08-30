@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react';
 const testimonials = [
   {
     id: 1,
-    image: 'https://drive.google.com/open?id=1BPfPSMU-HWwkJ9jcukabALoqLNjtL0GV',
+    image: 'https://via.placeholder.com/150',
     text: 'Thrivetop Academy is a place to breed, nature and unleash great potentials through thorough research, planning and teaching. It so beautiful seeing students achieving great results in academic success and I am super proud to a part of global impact through this academy.',
     name: 'Esther Adewuyi',
     title: 'M.Sc., Cell and Molecular Biology (In-View)',
@@ -90,13 +90,13 @@ const TestimonialSection = () => {
     <div className="flex mt-6 space-x-4">
       <button
         onClick={handlePrev}
-        className="p-2 bg-gray-800 text-white rounded-full hover:bg-gray-700"
+        className="p-2 px-3 bg-secondary text-white rounded-full hover:bg-brand"
       >
         &larr;
       </button>
       <button
         onClick={handleNext}
-        className="p-2 bg-gray-800 text-white rounded-full hover:bg-gray-700"
+        className="p-2 px-3 bg-secondary text-white rounded-full hover:bg-brand"
       >
         &rarr;
       </button>
