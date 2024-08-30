@@ -12,14 +12,14 @@ const Home = () => {
     <div className='flex flex-col'>
         <Navbar/>
         <section className="pt-24 bg-primary min-h-dvh flex  flex-col md:flex-row  justify-start items-start">
-          <div className="flex flex-col">
+          <div className="flex flex-col md:gap-10 md:pt-20">
 
        
-          <div className=' pl-2 md:px-16'>
-          <h2 className='text-white font-black text-4xl text-left ' >A better and thriving future for your kids.</h2>
+          <div className=' pl-2 md:px-16 '>
+          <h2 className='text-white font-black text-4xl text-left ' >A better and <span className="text-brand">thriving</span> future for your kids.</h2>
        
       
-          <p className='pt-4 text-white text-2xl text-left'>Get personalized tutoring from top tutors  matched to your child's needs. We help children prepare for exams, learn a new skill and get better grades.
+          <p className='pt-4 md:pt-8 text-white text-2xl text-left'>Get personalized tutoring from <span className="text-brand">top</span> tutors  matched to your child's needs. We help children prepare for exams, learn a new skill and get better grades.
           </p>
 
           </div>
