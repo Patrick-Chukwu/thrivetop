@@ -36,7 +36,7 @@ const Home = () => {
         </section>
         <Popout/>
 
-        <section className='py-4 h-[500px]'>
+        <section className='py-4 h-dvh'>
         {/* <ImageSlider/> */}
 
         </section>
