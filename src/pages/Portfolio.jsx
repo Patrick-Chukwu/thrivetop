@@ -9,7 +9,7 @@ const Portfolio = () => {
     <div className='mt-24'>
       <Navbar/>
       <h2 className="text-3xl text-primary  text-center font-bold">Courses</h2>
-      <p className='text-brand text-sm p-4 text-center w-fit mx-auto'>We provide quality and affordable learning to help your child <span className="border-b-4 border-double border-primary ">thrive</span> .</p>
+      <p className='text-brand text-base p-4 text-left w-fit mx-auto'>We provide quality and affordable learning to help your child thrive academically and in other aspects of life. A list of curated sessions to help your child unlock any goal with ease. Our live classes and top tutors are here to help in your child's journey of cracking his/her exams<span className="border-b-4 border-double border-primary text-secondary">thrive</span> .</p>
 
       {/* <Projects/> */}
       <Impact/>
