@@ -43,7 +43,7 @@ const ImpactItem = ({ children }) => {
       initial="hidden"
       animate={controls}
       variants={bounceInVariants}
-      className="flex border rounded-lg border-secondary shadow-md hover:shadow-primary hover:border-primary shadow-secondary flex-col items-start w-[90%] md:w-[30%] p-12 "
+      className="flex border rounded-lg border-secondary shadow-md hover:shadow-primary hover:border-primary h-[200px] md:h-[350px] shadow-secondary flex-col justify-center items-start w-[90%] md:w-[30%] p-12 "
     >
       {children}
     </motion.div>
@@ -52,7 +52,7 @@ const ImpactItem = ({ children }) => {
 
 const Impact = () => {
   return (
-    <div className='flex text-brand flex-col md:flex-row items-center p-4 gap-8'>
+    <div className='flex text-brand flex-col md:flex-row items-center p-4 gap-8 '>
       <ImpactItem>
         <h3 className="text-3xl font-bold">Primary School</h3>
         <p className="text-lg">Grade 1 - 6. Math, English, Science and other subjects.</p>
