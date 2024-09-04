@@ -41,7 +41,7 @@ const Home = () => {
 
         <section className='py-8 md:h-dvh '>
         {/* <ImageSlider/> */}
-        <h2 className="text-2xl md:text-3xl font-bold text-primary text-center w-full p-4">Expert courses led by top tutors.</h2>
+        <h2 className="text-2xl md:text-3xl font-bold text-primary text-center w-full p-4 capitalize">Expert courses led by top tutors.</h2>
 <Impact/>
         </section>
 
