@@ -14,7 +14,8 @@ const bounceInVariants = {
       type: 'spring',
       stiffness: 300,
       damping: 20,
-      duration: 0.6,
+      duration: 1,
+      ease: 'easeOut',
     },
   },
 };
@@ -40,7 +41,7 @@ const ImpactItem = ({ children }) => {
       initial="hidden"
       animate={controls}
       variants={bounceInVariants}
-      className="flex border rounded-lg border-secondary shadow flex-col items-start w-[90%] md:w-[30%] p-12"
+      className="flex border rounded-lg border-secondary shadow-md hover:shadow-brand shadow-secondary flex-col items-start w-[90%] md:w-[30%] p-12 "
     >
       {children}
     </motion.div>
@@ -49,7 +50,7 @@ const ImpactItem = ({ children }) => {
 
 const Impact = () => {
   return (
-    <div className='flex text-brand flex-col md:flex-row items-center p-4 gap-4'>
+    <div className='flex text-brand flex-col md:flex-row items-center p-4 gap-8'>
       <ImpactItem>
         <h3 className="text-3xl font-bold">Primary School</h3>
         <p className="text-lg">Grade 1 - 6. Math, English, Science and other subjects.</p>
