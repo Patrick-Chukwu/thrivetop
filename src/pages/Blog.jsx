@@ -11,8 +11,8 @@ const Blog = () => {
   return (
     <div className='mt-24'>
       <Navbar/>
-      <h3 className="text-2xl text-primary md:text-4xl font-medium text-left w-[98%] md:max-w-[710px] mx-auto">Become a tutor and earn money teaching what you love</h3>
-      <p className="text-base text-brand md:text-4xl font-medium text-left w-[98%] md:max-w-[710px] mx-auto">With Thrivetop Academy, you can teach students online and fit lessons into your schedule. Simply register, deliver great lessons and get paid. It's that easy.</p>
+      <h3 className="text-2xl text-primary md:text-4xl font-medium text-left w-[98%] md:max-w-[710px] px-2 mx-auto">Become a tutor and earn money teaching what you love</h3>
+      <p className="text-base text-brand md:text-4xl font-medium text-left px-2 py-4 w-[98%] md:max-w-[710px] mx-auto">With Thrivetop Academy, you can teach students online and fit lessons into your schedule. Simply register, deliver great lessons and get paid. It's that easy.</p>
       <div className="">
             
     <TestimonialSection/>
