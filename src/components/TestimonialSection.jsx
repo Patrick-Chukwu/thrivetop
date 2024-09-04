@@ -1,38 +1,45 @@
 import React, { useEffect, useState } from 'react';
+import one from '../assets/DamilolaBio.webp'
+
+import two from '../assets/DonaldMaths.webp'
+import three from '../assets/DeborahMaths.webp'
+import four from '../assets/AbisolaChemi.webp'
+import five from '../assets/Aramide_English.webp'
+
 
 // Sample data for testimonials
 const testimonials = [
   {
     id: 1,
-    image: 'https://via.placeholder.com/150',
+    image: one,
     text: 'Thrivetop Academy is a place to breed, nature and unleash great potentials through thorough research, planning and teaching. It so beautiful seeing students achieving great results in academic success and I am super proud to a part of global impact through this academy.',
     name: 'Esther Adewuyi',
     title: 'M.Sc., Cell and Molecular Biology (In-View)',
   },
   {
     id: 2,
-    image: 'https://via.placeholder.com/150',
+    image: two,
     text: 'Working with Thrivetop has been an incredibly rewarding experience. The organization has significantly contributed to my personal and professional growth, providing a nurturing environment for continuous development. I take pride in the positive impact I’ve had on the academic achievements of numerous students worldwide. ',
     name: 'Donald Erharhine ',
     title: 'BSc. Mathematics',
   },
   {
     id: 3,
-    image: 'https://via.placeholder.com/150',
+    image: three,
     text: "It's indeed a privilege being a part of thrivetop academy.  How I wish I had joined earlier,  all the same I thank God for His mercies. The  academy has been a source of blessing to me so far. I am much more experienced and better than I started and also glad I could make academic impact on students globally. ",
     name: 'Titus Aderonke Esther ',
     title: 'M.sc Biochemistry ',
   },
   {
     id: 4,
-    image: 'https://via.placeholder.com/150',
+    image: four,
     text: "I've had a fantastic experience working with ThriveTop Academy, and I've seen significant improvements in my skills and knowledge. The organization have exceeded my expectations and provided me with valuable insight and skills that have already impacted my career. It has been a journey of growth and learning, and I'm so much grateful for the experience. ",
     name: 'Deborah Salau',
     title: 'MSc.',
   },
   {
     id: 5,
-    image: 'https://via.placeholder.com/150',
+    image: five,
     text: "It's my first time teaching students online and it's been a great experience. I'm grateful for this opportunity and it's been a pleasure working with ThriveTop Academy in this short period of time.",
     name: 'Marvellous Oluwakeye',
     title: 'M.A. Ed. English ',
