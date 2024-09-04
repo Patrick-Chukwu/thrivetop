@@ -19,7 +19,7 @@ const faqs = [
   },
   {
     question: "Is there a free trial?",
-    answer: "We offer a free trial for you and your child/ward to experience our quality service.",
+    answer: "Yes! We offer a free trial for you and your child/ward to experience our quality service.",
   },
 ];
 
