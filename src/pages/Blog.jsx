@@ -11,8 +11,8 @@ const Blog = () => {
   return (
     <div className='mt-24'>
       <Navbar/>
-      <h3 className="text-2xl text-primary md:text-4xl font-medium text-center w-[98%] max-w-[710px] mx-auto">Thrivetop offers top tutors to help your child thrive academically</h3>
-      <div className="flex flex-col md:flex-row gap-4 justify-center items-center p-4 ">
+      <h3 className="text-2xl text-primary md:text-4xl font-medium text-center w-[98%] md:max-w-[710px] mx-auto">Thrivetop offers top tutors to help your child thrive academically</h3>
+      <div className="">
             
     <TestimonialSection/>
       </div>
