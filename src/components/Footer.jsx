@@ -5,6 +5,7 @@ import { FaLinkedin, FaTiktok, FaX, FaYoutube } from 'react-icons/fa6'
 import { FaInstagram } from 'react-icons/fa'
 import { BsInstagram, BsTwitterX } from 'react-icons/bs'
 import { IoLogoInstagram } from 'react-icons/io5'
+import GoogleMap from './GoogleMap'
 const Footer = () => {
   return (
     <div className='flex flex-col items-center py-4 justify-start gap-8 min-h-32 w-full bg-white'>
@@ -25,6 +26,8 @@ const Footer = () => {
         </div>
       </div>
      
+     {/* google map */}
+     <GoogleMap/>
         <div className="flex justify-between items-center gap-2">
   
 <p> &copy; 2024 Thrivetop Academy. All rights reserved.</p>
