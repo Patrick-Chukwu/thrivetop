@@ -12,7 +12,7 @@ const About = () => {
       <div className="flex flex-col items-center justify-start gap-4 ">
         {/* <h2 className="text-3xl font-semibold w-[90%] max-w-[600px]">
         </h2> */}
-        <h3 className="text-4xl text-primary md:text-6xl font-medium text-center w-[98%] max-w-[710px] mx-auto">Welcome to Thrivetop Academy</h3>
+        <h3 className="text-2xl md:text-4xl text-primary font-bold text-center w-[98%] max-w-[710px] mx-auto">Welcome to Thrivetop Academy</h3>
   
         <div className=" gap-4 justify-between items-center max-w-[700px]">
         <p className="text-sm text-brand md:text-xl font-medium p-4 text-left">
