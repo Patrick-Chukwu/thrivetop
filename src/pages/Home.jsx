@@ -56,7 +56,7 @@ const Home = () => {
 
         <TestimonialSection/>
       </section>
-      <section className='w-full mx-auto '>
+      <section className='w-full  m-auto py-8 '>
      <FAQSection/>
       </section>
         <Footer/>

@@ -27,7 +27,7 @@ const Footer = () => {
      
         <div className="flex justify-between items-center gap-2">
   
-<p> Thrivetop Academy. All rights reserved.</p>
+<p> Copyright &copy; Thrivetop Academy. All rights reserved.</p>
         </div>
     </div>
   )
