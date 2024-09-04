@@ -70,7 +70,7 @@ const TestimonialSection = () => {
 
   return (
     <div className="flex flex-col items-center justify-center py-10 bg-primary gap-6">
-        <h2 className="text-3xl font-bold text-white text-center w-full">Meet our tutors</h2>
+        <h2 className="text-2xl md:text-3xl font-bold text-white text-center w-full">Meet our tutors</h2>
         <div className="flex justify-between items-center gap-4 mt-2"> 
         <a href="https://docs.google.com/forms/d/e/1FAIpQLSegEAUdaOrefzbohIBRn4nnL_4J9T5PNXqwqmvRH6G2iqNV4Q/viewform?usp=sf_link" target='_blank' className='text-white text-xl text-center bg-secondary px-4 py-2 rounded-md hover:bg-white hover:text-bcolor font-medium '>Become a Tutor</a>
         <p className="text-sm md:text-xl text-center text-white ">A community of top tutors.</p>
