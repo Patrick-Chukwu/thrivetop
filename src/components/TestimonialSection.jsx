@@ -13,35 +13,35 @@ const testimonials = [
     id: 1,
     image: one,
     text: 'Thrivetop Academy is a place to breed, nature and unleash great potentials through thorough research, planning and teaching. It so beautiful seeing students achieving great results in academic success and I am super proud to a part of global impact through this academy.',
-    name: 'Esther Adewuyi',
+    name: 'Tutor Esther',
     title: 'M.Sc., Cell and Molecular Biology (In-View)',
   },
   {
     id: 2,
     image: two,
     text: 'Working with Thrivetop has been an incredibly rewarding experience. The organization has significantly contributed to my personal and professional growth, providing a nurturing environment for continuous development. I take pride in the positive impact I’ve had on the academic achievements of numerous students worldwide. ',
-    name: 'Donald Erharhine ',
+    name: 'Tutor Donald',
     title: 'BSc. Mathematics',
   },
   {
     id: 3,
     image: three,
     text: "It's indeed a privilege being a part of thrivetop academy.  How I wish I had joined earlier,  all the same I thank God for His mercies. The  academy has been a source of blessing to me so far. I am much more experienced and better than I started and also glad I could make academic impact on students globally. ",
-    name: 'Titus Aderonke Esther ',
+    name: 'Tutor Esther ',
     title: 'M.sc Biochemistry ',
   },
   {
     id: 4,
     image: four,
     text: "I've had a fantastic experience working with ThriveTop Academy, and I've seen significant improvements in my skills and knowledge. The organization have exceeded my expectations and provided me with valuable insight and skills that have already impacted my career. It has been a journey of growth and learning, and I'm so much grateful for the experience. ",
-    name: 'Deborah Salau',
+    name: 'Tutor Deborah',
     title: 'MSc.',
   },
   {
     id: 5,
     image: five,
     text: "It's my first time teaching students online and it's been a great experience. I'm grateful for this opportunity and it's been a pleasure working with ThriveTop Academy in this short period of time.",
-    name: 'Marvellous Oluwakeye',
+    name: 'Tutor Marvellous',
     title: 'M.A. Ed. English ',
   },
 ];
@@ -73,7 +73,7 @@ const TestimonialSection = () => {
         <h2 className="text-3xl font-bold text-white text-center w-full">Meet our tutors</h2>
         <div className="flex justify-between items-center gap-4 mt-2"> 
         <a href="https://docs.google.com/forms/d/e/1FAIpQLSegEAUdaOrefzbohIBRn4nnL_4J9T5PNXqwqmvRH6G2iqNV4Q/viewform?usp=sf_link" target='_blank' className='text-white text-xl text-center bg-secondary px-4 py-2 rounded-md hover:bg-white hover:text-bcolor font-medium '>Become a Tutor</a>
-        <p className="text-sm md:text-xl text-center text-white ">Our tutors get results.</p>
+        <p className="text-sm md:text-xl text-center text-white ">A community of top tutors.</p>
 
         </div>
     <div className="relative w-full overflow-hidden">

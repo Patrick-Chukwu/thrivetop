@@ -39,9 +39,9 @@ const Home = () => {
         </section>
         <Popout/>
 
-        <section className='py-4 h-dvh'>
+        <section className='py-4 md:h-dvh'>
         {/* <ImageSlider/> */}
-        <h2 className="text-3xl font-bold text-primary text-center w-full px-4">Learn from a community of top tutors.</h2>
+        <h2 className="text-3xl font-bold text-primary text-center w-full px-4">Expert courses led by top tutors.</h2>
 <Impact/>
         </section>
 
