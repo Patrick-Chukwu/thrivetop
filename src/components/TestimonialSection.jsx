@@ -86,7 +86,7 @@ const TestimonialSection = () => {
             key={testimonial.id}
             className="flex-shrink-0 w-full md:w-1/3 p-4"
           >
-            <div className="bg-white rounded-lg shadow-lg p-4 py-2 min-h-[400px] flex flex-col items-center">
+            <div className="bg-white rounded-lg shadow-lg p-4 py-2 h-[440px] flex flex-col items-center">
               <img
                 className="w-24 h-24 rounded-full mb-2 md:mb-4"
                 src={testimonial.image}
