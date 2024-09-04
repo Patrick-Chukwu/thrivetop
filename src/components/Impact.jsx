@@ -63,11 +63,11 @@ const Impact = () => {
       </ImpactItem>
       <ImpactItem>
         <h3 className="text-3xl font-bold">Exam Preparation</h3>
-        <p className="text-lg">Common Entrance, BECE, WAEC, JAMB, etc.</p>
+        <p className="text-lg">Common Entrance, BECE, WAEC, JAMB, IELTS, SATs etc.</p>
       </ImpactItem>
       <ImpactItem>
-        <h3 className="text-3xl font-bold">Preparing with Thrivetop</h3>
-        <p className="text-lg">IELTS, SATs, GMAT etc.</p>
+        <h3 className="text-3xl font-bold">Skill development</h3>
+        <p className="text-lg"> Coding, Design, etc.</p>
       </ImpactItem>
     </div>
   );
