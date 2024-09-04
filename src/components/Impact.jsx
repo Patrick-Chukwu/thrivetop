@@ -67,7 +67,7 @@ const Impact = () => {
       </ImpactItem>
       <ImpactItem>
         <h3 className="text-3xl font-bold">Skill development</h3>
-        <p className="text-lg"> Coding, Design, etc.</p>
+        <p className="text-lg"> Coding, Design, Language, etc.</p>
       </ImpactItem>
     </div>
   );
