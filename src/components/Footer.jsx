@@ -7,7 +7,7 @@ import { BsInstagram, BsTwitterX } from 'react-icons/bs'
 import { IoLogoInstagram } from 'react-icons/io5'
 const Footer = () => {
   return (
-    <div className='flex flex-col items-center py-4 justify-start gap-8 min-h-32 border-t border-bcolor w-full'>
+    <div className='flex flex-col items-center py-4 justify-start gap-8 min-h-32 w-full'>
       <div className="flex justify-between px-8 items-center gap-4 w-full">
         <img src={logo} alt="ThriveTop Academy logo" className='w-32' />
         <div className="flex gap-2">

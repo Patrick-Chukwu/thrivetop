@@ -9,6 +9,7 @@ import Popout from '../components/Popout'
 import girl from '../assets/girl.webp'
 import TestimonialSection from '../components/TestimonialSection'
 import Impact from '../components/Impact'
+import FAQSection from '../components/FAQSection'
 const Home = () => {
   return (
     <div className='flex flex-col'>
@@ -48,12 +49,15 @@ const Home = () => {
           {/* <LogoCarousel/> */}
  
         </section>
-      <section className='w-[98%] max-w-[750px] mx-auto '>
+      <section className='w-full mx-auto '>
       {/* <h2 className="text-3xl text-secondary  text-center font-bold px-4">Selected works</h2> */}
 
         {/* <Projects/> */}
 
         <TestimonialSection/>
+      </section>
+      <section className='w-full mx-auto '>
+     <FAQSection/>
       </section>
         <Footer/>
     </div>
