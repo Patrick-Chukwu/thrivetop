@@ -6,10 +6,12 @@ const bounceInVariants = {
   hidden: {
     opacity: 0,
     y: -50,
+    x: -50,
   },
   visible: {
     opacity: 1,
     y: 0,
+    x: 0,
     transition: {
       type: 'spring',
       stiffness: 300,
@@ -41,7 +43,7 @@ const ImpactItem = ({ children }) => {
       initial="hidden"
       animate={controls}
       variants={bounceInVariants}
-      className="flex border rounded-lg border-secondary shadow-md hover:shadow-brand shadow-secondary flex-col items-start w-[90%] md:w-[30%] p-12 "
+      className="flex border rounded-lg border-secondary shadow-md hover:shadow-primary hover:border-primary shadow-secondary flex-col items-start w-[90%] md:w-[30%] p-12 "
     >
       {children}
     </motion.div>
