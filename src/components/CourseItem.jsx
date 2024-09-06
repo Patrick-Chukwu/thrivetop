@@ -15,7 +15,7 @@ const CourseItem = ({ children, title, description, backgroundImage }) => {
 
   return (
     <div
-      className="relative flex border rounded-lg shadow-lg flex-col items-start w-[90%] md:w-[30%] px-10 py-20 md:py-32 cursor-pointer bg-cover bg-center"
+      className="relative flex border rounded-lg shadow-lg flex-col items-start w-[90%] md:w-[30%] px-10 py-28 md:py-32 cursor-pointer bg-cover bg-center"
       style={{
         backgroundImage: `url(${backgroundImage})`, // Set the background image dynamically
       }}
