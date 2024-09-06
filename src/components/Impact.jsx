@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
+import CountUp from './CountUp';
 
 const bounceInVariants = {
   hidden: {
@@ -43,7 +44,7 @@ const ImpactItem = ({ children }) => {
       initial="hidden"
       animate={controls}
       variants={bounceInVariants}
-      className="flex border rounded-lg border-secondary shadow-md hover:shadow-primary hover:border-primary h-[200px] md:h-[350px] shadow-secondary flex-col justify-center items-start w-[90%] md:w-[30%] p-12 "
+      className="flex border rounded-lg border-secondary shadow-md hover:shadow-primary hover:border-primary h-[200px] md:h-[350px] shadow-secondary flex-col justify-center items-center w-[90%] md:w-[30%] p-12 "
     >
       {children}
     </motion.div>
@@ -52,23 +53,20 @@ const ImpactItem = ({ children }) => {
 
 const Impact = () => {
   return (
-    <div className='flex text-brand flex-col md:flex-row items-center p-4 gap-8 '>
+    <div className='flex text-brand flex-col md:flex-row items-center justify-center p-4 gap-8 '>
       <ImpactItem>
-        <h3 className="text-3xl font-bold">Primary School</h3>
-        <p className="text-lg">Grade 1 - 6. Math, English, Science and other subjects.</p>
+        <h3 className="text-3xl font-bold"> <CountUp start={0} end={100} duration={5000} /></h3>
+        <p className="text-lg">Students enrolled.</p>
       </ImpactItem>
       <ImpactItem>
-        <h3 className="text-3xl font-bold">Secondary School</h3>
-        <p className="text-lg">Grade 6 - 12. Math, English, Physics, Chemistry, and more.</p>
+        <h3 className="text-3xl font-bold"><CountUp start={0} end={40} duration={5000}/></h3>
+        <p className="text-lg">Top Tutors.</p>
       </ImpactItem>
       <ImpactItem>
-        <h3 className="text-3xl font-bold">Exam Preparation</h3>
-        <p className="text-lg">Common Entrance, BECE, WAEC, JAMB, IELTS, SATs etc.</p>
+        <h3 className="text-3xl font-bold"><CountUp start={0} end={4} duration={5000}/></h3>
+        <p className="text-lg">Years of experience.</p>
       </ImpactItem>
-      <ImpactItem>
-        <h3 className="text-3xl font-bold">Skill development</h3>
-        <p className="text-lg"> Coding, Design, Language, etc.</p>
-      </ImpactItem>
+
     </div>
   );
 };

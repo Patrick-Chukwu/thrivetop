@@ -36,3 +36,26 @@ body {
     50% {width: 100%;}
     100% {width: 0%;}
 }
+
+/* Background animation */
+@keyframes slideBackground {
+    0% {
+      background-image: url('/src/assets/bg1.jpeg');
+    }
+    33% {
+        background-image: url('/src/assets/bg2.jpeg');
+    }
+    66% {
+        background-image: url('/src/assets/bg3.jpeg');
+    }
+    100% {
+        background-image: url('/src/assets/bg1.jpeg');
+    }
+  }
+  
+  .animated-background {
+    background-size: cover;
+    background-position: center;
+    animation: slideBackground 15s infinite ease-in-out;
+  }
+  
