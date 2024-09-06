@@ -44,12 +44,14 @@ const Home = () => {
         <section className='py-8 md:h-dvh '>
         {/* <ImageSlider/> */}
         <h2 className="text-2xl md:text-3xl font-bold text-primary text-center w-full p-4 capitalize">Our School at a Glance.</h2>
+        <p className='px-4 text-center text-brand md:text-xl'>Learn from a community of top tutors from Nigeria.</p>
+
 <Impact/>
         </section>
 
         <section className='py-8 md:h-dvh bg-primary'>
         <h2 className="text-2xl md:text-3xl font-bold text-white text-center w-full p-4 capitalize">Explore our list of expert curated courses.</h2>
-        <p className='p-4 text-center text-brand md:text-xl'>Whatever you goal is, we have the perfect course to help your child meet it. </p>
+        <p className='px-4 text-center text-brand md:text-xl'>Whatever you goal is, we have the perfect course to help your child meet it. </p>
  <Courses/>
         </section>
 

@@ -4,6 +4,7 @@ import Footer from '../components/Footer'
 
 import mission from  '../assets/mission.svg'
 import vision from  '../assets/vision.svg'
+import Impact from '../components/Impact'
 
 const About = () => {
   return (
@@ -40,6 +41,7 @@ const About = () => {
     </div>
         </div>
       </div>
+      <Impact/>
 <Footer/>
    
     </div>
