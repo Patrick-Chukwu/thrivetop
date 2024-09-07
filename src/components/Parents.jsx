@@ -6,31 +6,31 @@ const testimonials = [
     id: 1,
     text: "The teachers are supportive, flexible, patient, work well with parents, lessons are structured and can work with the school’s syllabus. They are awesome and incredible Tutors. Keep up the good work. The proprietor also works immediately on feedback.",
     name: "Val, Vic., and NIni's Mum",
-    title: 'M.Sc., Cell and Molecular Biology (In-View)',
+    title: 'UK',
   },
   {
     id: 2,
     text: "Excellent experience, excellent tutors and professionalism. I love the fact that they give monthly test and send results to parents. Keep aiming for the top.",
     name: "Dunsin and Morire's parent",
-    title: 'BSc. Mathematics',
+    title: 'Canada',
   },
   {
     id: 3,
     text: "They are very timely, punctual and have personal interest in the development of my children. Continue the good work.",
     name: "Ayomide and Zion's parent",
-    title: 'M.sc Biochemistry ',
+    title: 'Uk',
   },
   {
     id: 4,
     text: "Good evening forget to tell you Tomiwa got 5 University spaces,  he has chosen to study Business Marketing at Birmingham University.",
     name: "Mrs Adenike ",
-    title: 'MSc.',
+    title: 'UK',
   },
   {
     id: 5,
     text: "Thanks uncle Simon. You are an excellent teacher. Naomi is difficult to teach at this time but you work with God's grace. God bless you and yours.",
     name: 'Mrs Fisayo',
-    title: 'M.A. Ed. English ',
+    title: 'UK',
   },
 ];
 
@@ -78,6 +78,7 @@ const Parents = () => {
                 <h3 className="text-lg font-semibold text-white">
                   {testimonial.name}
                 </h3>
+                <p className="text-black font-semibold text-center mb-4">-{testimonial.title}</p>
               </div>
             </div>
           ))}
