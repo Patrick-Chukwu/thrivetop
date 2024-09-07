@@ -40,8 +40,8 @@ const testimonials = [
   {
     id: 5,
     image: five,
-    text: "It's my first time teaching students online and it's been a great experience. I'm grateful for this opportunity and it's been a pleasure working with ThriveTop Academy in this short period of time.",
-    name: 'Tutor Marvellous',
+    text: "ThriveTop Academy has given me the chance to assist a wide range of pupils in overcoming there challenges in the classroom and also observing their growth. This has strengthened my capacity to understand each student's unique requirements and build personal relationships with them. Because of the flexibility of online tutoring, I have been able to get in touch with students who are located in different parts of the country.",
+    name: 'Tutor Aramide',
     title: 'M.A. Ed. English ',
   },
 ];
