@@ -11,9 +11,9 @@ const testimonials = [
   {
     id: 1,
     image: one,
-    text: 'Thrivetop Academy is a place to breed, nature and unleash great potentials through thorough research, planning and teaching. It so beautiful seeing students achieving great results in academic success and I am super proud to a part of global impact through this academy.',
-    name: 'Tutor Esther',
-    title: 'M.Sc., Cell and Molecular Biology (In-View)',
+    text: 'ThriveTop Academy has been a source of encouragement to me. my experience with the academy has been incredibly positive. It truly cares about its students and their futures, and I am proud to be associated with such an outstanding institution. It offers a comprehensive and flexible learning environment that caters to students from various backgrounds and skill levels.',
+    name: 'Egwuaba Damilola',
+    title: 'MSc. Chemistry',
   },
   {
     id: 2,
@@ -24,14 +24,14 @@ const testimonials = [
   },
   {
     id: 3,
-    image: three,
-    text: "It's indeed a privilege being a part of thrivetop academy.  How I wish I had joined earlier,  all the same I thank God for His mercies. The  academy has been a source of blessing to me so far. I am much more experienced and better than I started and also glad I could make academic impact on students globally. ",
-    name: 'Tutor Esther ',
-    title: 'M.sc Biochemistry ',
+    image: four,
+    text: "Working with ThriveTop Academy over the years has been enjoyable. I'm happy with the organization's contribution to my career and personal development. Through this academy, I have taught many students all across the world, and I am proud of the influence I have had on their academic progress.",
+    name: 'Tutor Abisola ',
+    title: 'BSc.(Ed) Chemistry ',
   },
   {
     id: 4,
-    image: four,
+    image: three,
     text: "I've had a fantastic experience working with ThriveTop Academy, and I've seen significant improvements in my skills and knowledge. The organization have exceeded my expectations and provided me with valuable insight and skills that have already impacted my career. It has been a journey of growth and learning, and I'm so much grateful for the experience. ",
     name: 'Tutor Deborah',
     title: 'MSc. Statistics',
