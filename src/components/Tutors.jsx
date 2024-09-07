@@ -46,7 +46,7 @@ const Tutors = () => {
         {tutors.map((tutor) => (
             <div 
             key={tutor.id}
-            className="flex flex-col gap-2 w-full border shadow-md rounded-md">
+            className="flex flex-col gap-2 w-full border shadow-md rounded-md pb-2">
                   <img
                 className="w-full h-60 rounded-lg mb-2 md:mb-4 object-cover object-top"
                 src={tutor.image}
@@ -54,7 +54,7 @@ const Tutors = () => {
               />
               <h2 className='text-2xl text-center text-primary font-medium'>{tutor.name}</h2>
               <p className="text-center text-base font-normal text-brand">{tutor.qualification}</p>
-              <p className="text-center text-xs font-normal text-black">{tutor.subject}</p>
+              <p className="text-center text-xs font-normal text-black">{tutor.subject} tutor</p>
             </div>
         ))}
         
