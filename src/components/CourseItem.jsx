@@ -15,17 +15,17 @@ const CourseItem = ({ children, title, description, backgroundImage }) => {
 
   return (
     <div
-      className="relative flex border rounded-lg shadow-lg flex-col items-start w-[90%] md:w-[30%] px-10 pt-52 pb-4 md:py-32 cursor-pointer bg-cover bg-center"
+      className="relative flex rounded-lg shadow-lg flex-col items-start w-[90%] md:w-[30%]  pt-52 md:py-32 cursor-pointer bg-cover bg-center"
       style={{
         backgroundImage: `url(${backgroundImage})`, // Set the background image dynamically
       }}
       onClick={handleClick}
     >
       {/* Optional overlay for better text readability */}
-      <div className="absolute inset-0 bg-black bg-opacity-50 rounded-lg"></div>
+      <div className="absolute inset-0  rounded-lg"></div>
 
       {/* Content */}
-      <div className="relative z-10">
+      <div className="relative z-10 bg-black bg-opacity-50 w-full px-10 pb-4 ">
         <h3 className="text-2xl md:3xl font-bold text-white flex items-center justify-between">{title}  <BsArrowUpRightSquare className='size-4'/></h3>
 
         {/* The p element that will be toggled */}
