@@ -41,6 +41,7 @@ const About = () => {
     </div>
         </div>
       </div>
+      <p className='px-4 text-center text-brand md:text-xl'>We have made incredible impacts and achieved sucess over the years. </p>
       <Impact/>
 <Footer/>
    
