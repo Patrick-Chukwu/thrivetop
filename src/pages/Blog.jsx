@@ -5,6 +5,7 @@ import blockchain from '../assets/stocks/blockchain.webp'
 import ikere from '../assets/stocks/ikeretech.webp'
 import Footer from '../components/Footer'
 import TestimonialSection from '../components/TestimonialSection'
+import Tutors from '../components/Tutors'
 
 
 const Blog = () => {
@@ -14,7 +15,9 @@ const Blog = () => {
       <h3 className="text-2xl text-primary md:text-4xl font-bold text-left md:text-center w-[98%]  px-2 mx-auto">Become a tutor and earn money teaching what you love</h3>
       <p className="text-base text-brand  font-medium text-left px-2 py-4 md:text-center w-[98%] mx-auto">With Thrivetop Academy, you can teach students online and fit lessons into your schedule. Simply register, deliver great lessons and get paid. It's that easy.</p>
       <div className="">
-            
+      <h2 className='text-xl text-center text-primary font-bold'>Meet Our Team</h2>
+
+    <Tutors/>
     <TestimonialSection/>
       </div>
       <Footer/>
