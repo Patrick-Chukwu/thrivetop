@@ -78,7 +78,7 @@ const Parents = () => {
                 <h3 className="text-lg font-semibold text-white">
                   {testimonial.name}
                 </h3>
-                <p className="text-black font-semibold text-center mb-4">-{testimonial.title}</p>
+                <p className="text-black font-semibold text-center mb-4">- {testimonial.title}</p>
               </div>
             </div>
           ))}
