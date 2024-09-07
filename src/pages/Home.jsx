@@ -56,14 +56,14 @@ const Home = () => {
         </section>
 
         <section className='py-8 md:h-dvh bg-white text-center'>
-        <h2 className="text-2xl md:text-3xl font-bold text-primary text-center w-full p-4 capitalize">Listen to what parents have to say about us.</h2>
+        <h2 className="text-2xl md:text-3xl font-bold text-primary text-center w-full p-4 capitalize">Listen to what parents are saying about us.</h2>
 <Parents/>
 <a href="https://docs.google.com/forms/d/e/1FAIpQLSegEAUdaOrefzbohIBRn4nnL_4J9T5PNXqwqmvRH6G2iqNV4Q/viewform?usp=sf_link" target='_blank' className='text-white w-full text-xl text-center bg-secondary px-4 py-2 rounded-md hover:bg-white hover:text-bcolor font-medium '>Register your child</a>
 
         </section>
-      <section className='w-full mx-auto '>
+      <section className='w-full mx-auto bg-primary pt-10'>
   
-
+      <h2 className="text-2xl md:text-3xl font-bold text-white text-center w-full capitalize">Meet our tutors</h2>
         <TestimonialSection/>
       </section>
       <section className='w-full  m-auto py-8 '>
