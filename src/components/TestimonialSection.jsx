@@ -35,7 +35,7 @@ const testimonials = [
     image: four,
     text: "I've had a fantastic experience working with ThriveTop Academy, and I've seen significant improvements in my skills and knowledge. The organization have exceeded my expectations and provided me with valuable insight and skills that have already impacted my career. It has been a journey of growth and learning, and I'm so much grateful for the experience. ",
     name: 'Tutor Deborah',
-    title: 'MSc.',
+    title: 'MSc. Statistics',
   },
   {
     id: 5,
