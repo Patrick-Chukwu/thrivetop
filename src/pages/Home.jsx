@@ -12,6 +12,7 @@ import Impact from '../components/Impact'
 import FAQSection from '../components/FAQSection'
 import Courses from '../components/Courses'
 import Parents from '../components/Parents'
+import { Link } from 'react-router-dom'
 const Home = () => {
   return (
     <div className='flex flex-col'>
@@ -30,7 +31,8 @@ const Home = () => {
           </div>
           
           <div className="flex justify-center gap-8 w-[95%] items-center p-2 md:w-1/2 mx-auto my-4">
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSegEAUdaOrefzbohIBRn4nnL_4J9T5PNXqwqmvRH6G2iqNV4Q/viewform?usp=sf_link" target='_blank' className='text-white w-full text-xl text-center bg-secondary px-4 py-2 rounded-md hover:bg-white hover:text-bcolor font-medium '>Get Started</a>
+             <Link to="/register"  
+ className='bg-secondary text-white py-3 px-4 w-full text-center text-xl font-medium hover:text-white rounded-md lg:rounded-lg md:rounded-md xl:rounded-xl '>Get Started</Link>
          
        
           
@@ -58,7 +60,9 @@ const Home = () => {
         <section className='py-8 md:h-dvh bg-white text-center'>
         <h2 className="text-2xl md:text-3xl font-bold text-primary text-center w-full p-4 capitalize">Here is what parents are saying about us.</h2>
 <Parents/>
-<a href="https://docs.google.com/forms/d/e/1FAIpQLSegEAUdaOrefzbohIBRn4nnL_4J9T5PNXqwqmvRH6G2iqNV4Q/viewform?usp=sf_link" target='_blank' className='text-white w-full text-xl text-center bg-secondary px-4 py-2 rounded-md hover:bg-white hover:text-bcolor font-medium '>Register your child</a>
+
+<Link to="/register"  
+ className='bg-secondary text-white py-3 text-xl px-4 w-fit font-medium hover:text-white rounded-md lg:rounded-lg md:rounded-md xl:rounded-xl '>Register your child</Link>
 
         </section>
       <section className='w-full mx-auto bg-primary pt-10'>

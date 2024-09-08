@@ -30,7 +30,8 @@ const Navbar = () => {
           <a href="https://www.linkedin.com/in/patrick-chukwu/" target='_blank' className='border-none rounded-full p-1 bg-primary text-black hover:text-black hover:bg-white'><FaLinkedin/></a>
      
           <a href="https://x.com/PattyFean" target='_blank' className='border-none rounded-full p-1 bg-primary text-black hover:text-black hover:bg-white'><FaXTwitter/></a> */}
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSegEAUdaOrefzbohIBRn4nnL_4J9T5PNXqwqmvRH6G2iqNV4Q/viewform?usp=sf_link" target='_blank' className='text-white bg-secondary px-4 py-2 rounded-md hover:bg-white hover:text-bcolor font-medium hover:border border-black'>Get Started</a>
+         <Link to="/register"  onClick={closeMenu}
+ className='bg-secondary text-white py-2 px-4 w-fit font-medium hover:text-white rounded-md lg:rounded-lg md:rounded-md xl:rounded-xl '>Get Started</Link>
         </div>
         <div className="-mr-2 flex lg:hidden">
             <button
@@ -77,8 +78,8 @@ to="/about" className="text-brand font-normal text-xl block px-3 py-2 rounded-md
  to="/blog" className="text-brand font-normal text-xl block px-3 py-2 rounded-md hover:bg-primary">
             Tutors
           </Link>
-       <a href='https://docs.google.com/forms/d/e/1FAIpQLSegEAUdaOrefzbohIBRn4nnL_4J9T5PNXqwqmvRH6G2iqNV4Q/viewform?usp=sf_link' target='_blank' onClick={closeMenu}
- className='bg-secondary text-white py-2 px-4 w-fit font-medium hover:text-white rounded-md lg:rounded-lg md:rounded-md xl:rounded-xl '>Get Started</a>
+       <Link to="/register"  onClick={closeMenu}
+ className='bg-secondary text-white py-2 px-4 w-fit font-medium hover:text-white rounded-md lg:rounded-lg md:rounded-md xl:rounded-xl '>Get Started</Link>
         </div>
       </div>
     </nav>
