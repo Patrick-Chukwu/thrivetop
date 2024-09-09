@@ -67,7 +67,7 @@ const Parents = () => {
           {testimonials.map((testimonial) => (
             <div
               key={testimonial.id}
-              className="flex-shrink-0 w-full p-4 md:w-1/3"
+              className="flex-shrink-0 w-full p-4"
             >
               <div className="bg-primary rounded-lg shadow-lg p-4 pt-10 h-[300px] flex flex-col justify-between items-center">
                 <p className="text-black text-center mb-4">
