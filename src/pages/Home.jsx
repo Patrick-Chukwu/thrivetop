@@ -22,10 +22,10 @@ const Home = () => {
 
        
           <div className=' pl-2 md:px-16 '>
-          <h2 className='text-white pb-4 font-black text-4xl text-left md:px-[10%] lg:px-[15%]' >A better and <span className="text-brand">thriving</span> future for your kids.</h2>
+          <h2 className='text-white pb-4 font-black text-4xl text-left md:px-[10%] lg:px-[15%]' >A better and <span className="text-secondary">thriving</span> future for your kids.</h2>
        
       
-          <p className='pt-4 md:pt-8 text-white text-2xl text-left md:px-[10%] lg:px-[15%] md:text-3xl md:font-medium'>Get personalized tutoring from <span className="text-brand font-black">top</span> tutors  matched to your child's needs. We help children prepare for exams, learn a new skill and get better grades.
+          <p className='pt-4 md:pt-8 text-white text-2xl text-left md:px-[10%] lg:px-[15%] md:text-3xl md:font-medium'>Get personalized tutoring from <span className="text-secondary font-black">top</span> tutors  matched to your child's needs. We help children prepare for exams, learn a new skill and get better grades.
           </p>
 
           </div>
