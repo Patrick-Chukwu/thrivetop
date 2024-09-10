@@ -73,7 +73,7 @@ const TestimonialSection = () => {
        
         <div className="flex justify-between items-center gap-2 mt-2"> 
         <Link to="/becometutor"  
- className='bg-secondary text-white py-3 px-4 w-full text-center text-xl font-medium hover:text-white rounded-md lg:rounded-lg md:rounded-md xl:rounded-xl '>Become a tutor</Link>
+ className='bg-secondary text-white py-3 px-2 w-fit text-center text-base font-medium hover:text-white rounded-md lg:rounded-lg md:rounded-md xl:rounded-xl '>Become a tutor</Link>
 
         <p className="text-sm md:text-xl text-center text-white ">Join a community of top tutors.</p>
 
