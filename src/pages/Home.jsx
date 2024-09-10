@@ -18,7 +18,7 @@ const Home = () => {
     <div className='flex flex-col'>
         <Navbar/>
         <section className=" filling slideBackground animated-background pt-20 md-pt-20vh  min-h-dvh flex  flex-col md:flex-row  justify-start items-start ">
-          <div className="flex flex-col md:gap-10 md:pt-20 bg-primary bg-opacity-70 h-dvh justify-center">
+          <div className="flex flex-col md:gap-10 md:pt-20 bg-primary bg-opacity-50 h-dvh justify-center">
 
        
           <div className=' pl-2 md:px-16 '>
