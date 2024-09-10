@@ -18,11 +18,11 @@ const Home = () => {
     <div className='flex flex-col'>
         <Navbar/>
         <section className=" filling slideBackground animated-background pt-20 md-pt-20vh  min-h-dvh flex  flex-col md:flex-row  justify-start items-start ">
-          <div className="flex flex-col md:gap-10 md:pt-20 bg-primary bg-opacity-50 h-dvh justify-center">
+          <div className="flex flex-col md:gap-10 md:pt-20 bg-primary bg-opacity-50 gap-8 h-dvh justify-center">
 
        
           <div className=' pl-2 md:px-16 '>
-          <h2 className='text-white font-black text-4xl text-left md:px-[10%] lg:px-[15%]' >A better and <span className="text-brand">thriving</span> future for your kids.</h2>
+          <h2 className='text-white pb-4 font-black text-4xl text-left md:px-[10%] lg:px-[15%]' >A better and <span className="text-brand">thriving</span> future for your kids.</h2>
        
       
           <p className='pt-4 md:pt-8 text-white text-2xl text-left md:px-[10%] lg:px-[15%] md:text-3xl md:font-medium'>Get personalized tutoring from <span className="text-brand font-black">top</span> tutors  matched to your child's needs. We help children prepare for exams, learn a new skill and get better grades.
