@@ -33,7 +33,7 @@ const Navbar = () => {
          <Link to="/register"  onClick={closeMenu}
  className='bg-secondary text-white py-2 px-4 w-fit font-medium hover:text-white rounded-md lg:rounded-lg md:rounded-md xl:rounded-xl '>Get Started</Link>
         </div>
-        <div className="-mr-2 flex lg:hidden">
+        <div className="-mr-2 flex md:hidden">
             <button
               onClick={toggleMenu}
               type="button"
