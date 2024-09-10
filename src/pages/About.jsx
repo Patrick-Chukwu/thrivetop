@@ -19,7 +19,7 @@ const About = () => {
         <div className=" gap-4 justify-between items-center max-w-[700px]">
         <p className="text-sm text-brand md:text-xl font-medium p-4 text-left">
 
-        We are committed to empowering students from around the world with high-quality education that prepares them for academic excellence and personal growth. Our academy offers comprehensive training for various key examinations, including GCSE/IGCSE (EDEXCEL, AQA, OCR), O/A - Level, SAT, and 11+ Grammar School Entrance Exams. We also provide specialized instruction for students in Grade/Year 1 - 11, as well as for those preparing for WASSCE/NECO/UTME and COMMON ENTRANCE (Primary 5 NG).
+        Thrivetop is committed to empowering students from around the world with high-quality education that prepares them for academic excellence and personal growth.
 
 
 </p>
