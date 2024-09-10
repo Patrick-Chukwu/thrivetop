@@ -45,7 +45,7 @@ const About = () => {
       <h2 className="text-2xl md:text-3xl font-bold text-primary text-center w-full p-4 capitalize">Our School at a Glance.</h2>
       <p className='px-4 text-center text-brand md:text-xl'>We have made incredible impacts and achieved sucess over the years. </p>
       <Impact/>
-      <h2 className="text-2xl md:text-3xl font-bold text-primary text-center w-full p-4 capitalize">Meet Our Team</h2>
+      <h2 className="text-2xl md:text-3xl font-bold text-primary text-center w-full p-4 capitalize">Our Team</h2>
       <Tutors/>
 <Footer/>
    

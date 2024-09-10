@@ -5,6 +5,7 @@ import two from '../assets/DonaldMaths.webp'
 import three from '../assets/DeborahMaths.webp'
 import four from '../assets/AbisolaChemi.webp'
 import five from '../assets/Aramide_English.webp'
+import { Link } from 'react-router-dom';
 
 
 const testimonials = [
@@ -71,7 +72,9 @@ const TestimonialSection = () => {
     <div className="flex flex-col items-center justify-center pb-10 py-4 bg-primary gap-6">
        
         <div className="flex justify-between items-center gap-2 mt-2"> 
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSffQMfu-pAJapvGIeIMW4VULmAUWySDN57C_3qp6VS8lu40hg/viewform?usp=sf_link" target='_blank' className='text-white text-base text-center bg-secondary px-4 py-2 rounded-md hover:bg-white hover:text-bcolor font-medium '>Become a Tutor</a>
+        <Link to="/becometutor"  
+ className='bg-secondary text-white py-3 px-4 w-full text-center text-xl font-medium hover:text-white rounded-md lg:rounded-lg md:rounded-md xl:rounded-xl '>Become a tutor</Link>
+
         <p className="text-sm md:text-xl text-center text-white ">Join a community of top tutors.</p>
 
         </div>
