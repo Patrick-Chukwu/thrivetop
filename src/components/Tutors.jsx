@@ -1,9 +1,9 @@
 import React from 'react'
 
-import Simon from '../assets/Simon.jpeg';
+import Simon from '../assets/Simon.webp';
 import Damilola from '../assets/DamilolaBio.webp';
 import Donald from '../assets/DonaldMaths.webp';
-import Adewuyi from '../assets/Adewuyi.jpg';
+import Adewuyi from '../assets/Adewuyi.webp';
 import victor from '../assets/victor.png';
 import olatunji from '../assets/olatunji.jpeg';
 import wisdom from '../assets/wisdom.png';
@@ -18,11 +18,11 @@ import ganiyat from '../assets/ganiyat.jpg';
 import taofeeq from '../assets/taofeeq.png';
 import aramide from '../assets/Aramide_English.webp';
 
-import bukunmi from '../assets/bukunmi.jpg';
+import bukunmi from '../assets/bukunmi.webp';
 import Dorcas from '../assets/aderonke.webp';
-import Marvellous from '../assets/Marvellous.jpg';
+import Marvellous from '../assets/Marvellous.webp';
 import okonkwo from '../assets/okonkwo.webp';
-import jesse from '../assets/jesse.jpg';
+import jesse from '../assets/jesse.webp';
 import patrick from '../assets/Patrick.webp';
 
 const tutors = [
