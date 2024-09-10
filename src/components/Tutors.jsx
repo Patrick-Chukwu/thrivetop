@@ -212,7 +212,7 @@ const Tutors = () => {
             key={tutor.id}
             className="flex flex-col gap-2 w-full md:w-[23%] md:h-[400px] border shadow-md rounded-md pb-2">
                   <img
-                className="w-full h-60 rounded-lg mb-2 md:mb-4 object-cover object-top"
+                className="w-full h-72 rounded-lg mb-2 md:mb-4 object-cover object-top"
                 src={tutor.image}
                 alt={tutor.name}
               />
