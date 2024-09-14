@@ -9,7 +9,7 @@ import GoogleMap from './GoogleMap'
 import { MdCall, MdEmail } from 'react-icons/md'
 const Footer = () => {
   return (
-    <div className='flex flex-col items-center py-4 justify-start gap-8 min-h-32 w-full bg-white'>
+    <div className='flex flex-col items-center py-4 justify-start gap-4 md:gap-8 min-h-32 w-full bg-white'>
       <div className="flex justify-between px-8 items-center gap-4 w-full">
         <img src={logo} alt="ThriveTop Academy logo" className='w-32' />
         <div className="flex gap-2">
