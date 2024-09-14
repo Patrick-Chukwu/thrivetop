@@ -70,15 +70,15 @@ const Parents = () => {
               className="flex-shrink-0 w-full p-4"
             >
               <div className="bg-primary rounded-lg shadow-lg p-4 pt-10 h-[300px] flex flex-col justify-between items-center">
-                <p className="text-black text-center mb-4">
-                  <span className="text-3xl text-white">&ldquo;</span>{' '}
+                <p className="text-white text-center mb-4">
+                  <span className="text-3xl text-brand">&ldquo;</span>{' '}
                   {testimonial.text}{' '}
-                  <span className="text-3xl text-white">&rdquo;</span>
+                  <span className="text-3xl text-brand">&rdquo;</span>
                 </p>
-                <h3 className="text-lg font-semibold text-white">
+                <h3 className="text-lg font-semibold text-brand">
                   {testimonial.name}
                 </h3>
-                <p className="text-black font-semibold text-center mb-4">- {testimonial.title}</p>
+                <p className="text-brand font-semibold text-center mb-4">- {testimonial.title}</p>
               </div>
             </div>
           ))}

@@ -6,6 +6,7 @@ import { FaInstagram } from 'react-icons/fa'
 import { BsInstagram, BsTwitterX } from 'react-icons/bs'
 import { IoLogoInstagram } from 'react-icons/io5'
 import GoogleMap from './GoogleMap'
+import { MdCall, MdEmail } from 'react-icons/md'
 const Footer = () => {
   return (
     <div className='flex flex-col items-center py-4 justify-start gap-8 min-h-32 w-full bg-white'>
@@ -24,6 +25,11 @@ const Footer = () => {
 
           <FaYoutube className='md:size-6'/></a>
         </div>
+      </div>
+      <div className="flex justify-between w-full px-4 text-[12px] items-center">
+        <div className="flex items-center justify-center"><MdEmail/><p>: info@thrivetopacademy.com</p></div>
+        <div className="flex items-center justify-center"><MdCall/><p>: +2349099382719</p></div>
+
       </div>
      
      {/* google map */}

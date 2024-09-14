@@ -15,7 +15,7 @@ const Courses = () => {
         />
         <CourseItem
           title="Exam Preparation"
-          description="IELTS, SATs, Common Entrance, BECE, WAEC, JAMB, etc."
+          description="IELTS, SATs, Common Entrance, A-Level, 11+ GSE, BECE, WAEC, JAMB, etc."
           backgroundImage="https://res.cloudinary.com/deho0mehx/image/upload/v1725651410/exam_sntkaj.avif"
         />
         <CourseItem

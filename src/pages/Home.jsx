@@ -18,7 +18,7 @@ const Home = () => {
     <div className='flex flex-col'>
         <Navbar/>
         <section className=" filling slideBackground animated-background pt-20 md-pt-20vh  min-h-dvh flex  flex-col md:flex-row  justify-start items-start ">
-          <div className="flex flex-col md:gap-10 md:pt-20 bg-primary bg-opacity-50 gap-8 h-dvh justify-center">
+          <div className="flex flex-col md:gap-10 md:pt-20 bg-primary bg-opacity-30 gap-8 h-dvh justify-center">
 
        
           <div className=' pl-2 md:px-16 '>
@@ -46,14 +46,14 @@ const Home = () => {
         <section className='py-8 md:h-dvh '>
         {/* <ImageSlider/> */}
         <h2 className="text-2xl md:text-3xl font-bold text-primary text-center w-full p-4 capitalize">Our School at a Glance.</h2>
-        <p className='px-4 text-center text-brand md:text-xl'>Learn from a community of top tutors from Nigeria.</p>
+        <p className='px-4 text-center text-brand md:text-xl'>Learn from a community of expert tutors with diverse curriculum experience.</p>
 
 <Impact/>
         </section>
 
         <section className='py-8 md:h-dvh bg-primary'>
         <h2 className="text-2xl md:text-3xl font-bold text-white text-center w-full p-4 capitalize">Explore our list of expert curated courses.</h2>
-        <p className='px-4 text-center text-brand md:text-xl'>Whatever you goal is, we have the perfect course to help your child meet it. </p>
+        <p className='px-4 text-center text-brand md:text-xl'>Whatever your goal is, we have the perfect course to help your child meet it. </p>
  <Courses/>
         </section>
 
