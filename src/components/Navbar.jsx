@@ -31,7 +31,9 @@ const Navbar = () => {
      
           <a href="https://x.com/PattyFean" target='_blank' className='border-none rounded-full p-1 bg-primary text-black hover:text-black hover:bg-white'><FaXTwitter/></a> */}
          <Link to="/register"  onClick={closeMenu}
- className='bg-secondary text-white py-2 px-4 w-fit font-medium hover:text-white rounded-md lg:rounded-lg md:rounded-md xl:rounded-xl '>Get Started</Link>
+ className='bg-secondary text-center  text-white py-2 px-4 w-36 hover:bg-primary font-medium hover:text-white rounded-md lg:rounded-lg md:rounded-md xl:rounded-md '>Get Started</Link>
+  <Link to="/login"  onClick={closeMenu}
+ className='bg-primary w-36 text-center hover:bg-secondary text-white py-2 px-4 font-medium hover:text-white rounded-md lg:rounded-lg md:rounded-md xl:rounded-md '>Login</Link>
         </div>
         <div className="-mr-2 flex md:hidden">
             <button
@@ -78,8 +80,10 @@ to="/about" className="text-brand font-normal text-xl block px-3 py-2 rounded-md
  to="/blog" className="text-brand font-normal text-xl block px-3 py-2 rounded-md hover:bg-primary">
             Tutors
           </Link>
-       <Link to="/register"  onClick={closeMenu}
- className='bg-secondary text-white py-2 px-4 w-fit font-medium hover:text-white rounded-md lg:rounded-lg md:rounded-md xl:rounded-xl '>Get Started</Link>
+          <Link to="/register"  onClick={closeMenu}
+ className='bg-secondary text-center  text-white py-2 px-4 w-36 hover:bg-primary font-medium hover:text-white rounded-md lg:rounded-lg md:rounded-md xl:rounded-xl '>Get Started</Link>
+  <Link to="/login"  onClick={closeMenu}
+ className='bg-primary w-36 text-center hover:bg-secondary text-white py-2 px-4 font-medium hover:text-white rounded-md lg:rounded-lg md:rounded-md xl:rounded-xl '>Login</Link>
         </div>
       </div>
     </nav>

@@ -27,7 +27,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="flex justify-between w-full px-4 text-[12px] items-center">
-        <div className="flex items-center justify-center"><MdEmail/><p>: info@thrivetopacademy.com</p></div>
+        <div className="flex items-center justify-center"><MdEmail/><p>: thrivetopacademy@gmail.com</p></div>
         <div className="flex items-center justify-center"><MdCall/><p>: +2349099382719</p></div>
 
       </div>

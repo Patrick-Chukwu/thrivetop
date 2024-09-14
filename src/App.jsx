@@ -6,6 +6,7 @@ import Portfolio from './pages/Portfolio';
 import Blog from './pages/Blog';
 import Register from './pages/Register';
 import TutorApplication from './pages/TutorApplication';
+import ClassroomLink from './pages/ClassroomLink';
 
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
       <Route path='/portfolio' element={<Portfolio/>} />
       <Route path='/register' element={<Register/>} />
       <Route path='/becometutor' element={<TutorApplication/>} />
+      <Route path='/login' element={<ClassroomLink/>} />
 
 
       <Route path='/blog' element={<Blog/>} />
