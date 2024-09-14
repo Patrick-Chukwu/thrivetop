@@ -16,7 +16,10 @@ const ClassroomLink = () => {
       >
         Go to Classroom
       </a>
-      <Footer/>
+      <div className="fixed bottom-0">
+      <Footer />
+
+      </div>
     </div>
   );
 };
