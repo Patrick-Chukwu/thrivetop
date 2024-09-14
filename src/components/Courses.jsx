@@ -6,7 +6,7 @@ const Courses = () => {
         <CourseItem
           title="Primary School"
           description="Grade 1 - 6. Maths, English, Sciences, Verbal and Quantitative Reasoning , etc."
-          backgroundImage="https://res.cloudinary.com/deho0mehx/image/upload/v1725650586/primaryschool_nmoy8i.webp"
+          backgroundImage="https://res.cloudinary.com/deho0mehx/image/upload/v1726351268/primary_on1qot.jpg"
         />
         <CourseItem
           title="Secondary School"
