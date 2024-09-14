@@ -13,7 +13,7 @@ const testimonials = [
     id: 1,
     image: one,
     text: 'ThriveTop Academy has been a source of encouragement to me. my experience with the academy has been incredibly positive. It truly cares about its students and their futures, and I am proud to be associated with such an outstanding institution. It offers a comprehensive and flexible learning environment that caters to students from various backgrounds and skill levels.',
-    name: 'Egwuaba Damilola',
+    name: 'Tutor Damilola',
     title: 'MSc. Chemistry',
   },
   {
@@ -42,7 +42,7 @@ const testimonials = [
     image: five,
     text: "ThriveTop Academy has given me the chance to assist a wide range of pupils in overcoming there challenges in the classroom and also observing their growth. This has strengthened my capacity to understand each student's unique requirements and build personal relationships with them. Because of the flexibility of online tutoring, I have been able to get in touch with students who are located in different parts of the country.",
     name: 'Tutor Aramide',
-    title: 'M.A. Ed. English ',
+    title: 'B.A. Ed. English ',
   },
 ];
 
@@ -90,7 +90,7 @@ const TestimonialSection = () => {
           >
             <div className="bg-white rounded-lg shadow-lg p-4 py-2 h-[520px] md:min-h-[450px] flex flex-col items-center">
               <img
-                className="size-40 rounded-full mb-2 md:mb-4"
+                className="size-40 object-cover p-1 border border-primary rounded-full mb-2 md:mb-4"
                 src={testimonial.image}
                 alt={testimonial.name}
               />
