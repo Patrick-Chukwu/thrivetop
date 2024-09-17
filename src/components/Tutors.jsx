@@ -8,7 +8,7 @@ import victor from '../assets/victor.png';
 import olatunji from '../assets/olatunji.jpeg';
 import wisdom from '../assets/wisdom.png';
 import deborah from '../assets/DeborahMaths.webp';
-import barnabas from '../assets/barnabas.webp';
+import barnabas from '../assets/alaba.webp';
 import AbisolaChemi from '../assets/AbisolaChemi.webp';
 import esther from '../assets/esther.jpg';
 
@@ -24,6 +24,12 @@ import Marvellous from '../assets/Marvellous.webp';
 import okonkwo from '../assets/okonkwo.webp';
 import jesse from '../assets/jesse.webp';
 import patrick from '../assets/Patrick.webp';
+import godswill from '../assets/godswill.webp';
+import waleola from '../assets/waleola.webp';
+import ogundipe from '../assets/ogundipe.webp';
+import borode from '../assets/borode.webp';
+import isaac from '../assets/isaac.webp';import abosede from '../assets/abosede.webp';
+
 
 const tutors = [
     {
@@ -93,9 +99,9 @@ const tutors = [
     {
         id: 9,
         image: barnabas,
-        name: 'Barnabas Adeyemo',
-        subject: 'Sciences',
-        qualification: 'BSc. Materials Science and Engineering'
+        name: 'Alaba Shehu',
+        subject: 'Mathenatics',
+        qualification: 'BSc. Mathematics'
 
     },
     {
@@ -202,7 +208,54 @@ const tutors = [
   qualification: 'Bsc. Botany'
 
 },
+{
+  id: 23,
+  image: godswill,
+  name: "God'swill Ajibade ",
+  subject: 'Science',
+  qualification: 'HND. Civil Engineering. '
 
+},
+{
+  id: 24,
+  image: waleola,
+  name: "Waleola Olayinka Caleb ",
+  subject: 'Maths/Physics',
+  qualification: 'Bsc. Physics'
+
+},
+{
+  id: 25,
+  image: ogundipe,
+  name: "Dorcas Ogundipe",
+  subject: 'Maths/Physics',
+  qualification: 'BSc.'
+
+},
+{
+  id: 26,
+  image: borode,
+  name: "Samuel Borode",
+  subject: 'Biology, Chemistry',
+  qualification: 'MSc Microbiology'
+
+},
+{
+  id: 27,
+  image: isaac,
+  name: "Solomon Isaac",
+  subject: 'Mathematics',
+  qualification: 'Bsc.(Ed.) Mathematics Education'
+
+},
+{
+  id: 28,
+  image: abosede,
+  name: "Abosede Esther Adeyemi",
+  subject: 'English Language ',
+  qualification: 'BA. Communication and language arts '
+
+},
 ]
 const Tutors = () => {
   return (
@@ -210,7 +263,7 @@ const Tutors = () => {
         {tutors.map((tutor) => (
             <div 
             key={tutor.id}
-            className="flex flex-col gap-2 w-full md:w-[23%] md:h-[400px] border shadow-md rounded-md pb-2">
+            className="flex flex-col gap-2 w-full md:w-[23%] md:min-h-[420px] border shadow-md rounded-md pb-2">
                   <img
                 className="w-full h-72 rounded-lg mb-2 md:mb-4 object-cover object-top"
                 src={tutor.image}
