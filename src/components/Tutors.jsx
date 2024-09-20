@@ -228,8 +228,8 @@ const tutors = [
   id: 25,
   image: ogundipe,
   name: "Dorcas Ogundipe",
-  subject: 'Maths/Physics',
-  qualification: 'BSc.'
+  subject: 'Chemistry/Biology',
+  qualification: 'BSc. Biochemistry'
 
 },
 {
