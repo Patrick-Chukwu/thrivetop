@@ -16,7 +16,7 @@ const Navbar = () => {
     <nav className='p-4  bg-white  fixed top-0 left-0 w-full z-50 text-brand '>
       <div className='flex items-center justify-between'>
 
-        <Link to="/"><img src={logo} className='bg-white w-36 px-2 py-1 h-12' alt="Thrivetop Academy Logo" /></Link>
+        <Link to="/"><img src={logo} className='bg-white w-36 py-1 h-12' alt="Thrivetop Academy Logo" /></Link>
         <div className="hidden md:flex justify-between items-center gap-4">
             <Link to="/" className='font-medium text-xl hover:text-primary'>Home</Link>
             <Link to="/about" className='font-medium text-xl hover:text-primary'>About Us</Link>
@@ -35,7 +35,7 @@ const Navbar = () => {
   <Link to="/login"  onClick={closeMenu}
  className='bg-primary w-36 text-center hover:bg-secondary text-white py-2 px-4 font-medium hover:text-white rounded-md lg:rounded-lg md:rounded-md xl:rounded-md '>Login</Link>
         </div>
-        <div className="-mr-2 flex md:hidden">
+        <div className="flex md:hidden">
             <button
               onClick={toggleMenu}
               type="button"
