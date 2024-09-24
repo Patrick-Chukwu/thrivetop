@@ -39,7 +39,7 @@ const Navbar = () => {
             <button
               onClick={toggleMenu}
               type="button"
-              className="bg-primary inline-flex items-center justify-center p-1 rounded-md text-black hover:bg-white hover:text-black focus:outline-none focus:bg-white focus:text-black"
+              className=" inline-flex items-center justify-center p-1 rounded-md text-black hover:bg-white hover:text-black focus:outline-none focus:bg-white focus:text-black"
               aria-controls="mobile-menu"
               aria-expanded="false"
             >

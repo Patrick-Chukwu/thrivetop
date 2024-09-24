@@ -19,7 +19,7 @@ import taofeeq from '../assets/taofeeq.png';
 import aramide from '../assets/Aramide_English.webp';
 
 import bukunmi from '../assets/bukunmi.webp';
-import Dorcas from '../assets/aderonke.webp';
+import Dorcas from '../assets/Dorcas.webp';
 import Marvellous from '../assets/Marvellous.webp';
 import okonkwo from '../assets/okonkwo.webp';
 import jesse from '../assets/jesse.webp';
@@ -45,7 +45,7 @@ const tutors = [
         image: Damilola,
         name: 'Damilola Egwuaba',
         subject: 'Maths/Phy',
-        qualification: 'MSc. Chemistry'
+        qualification: 'MSc. Public Health'
 
     },
     {
