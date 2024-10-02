@@ -14,7 +14,7 @@ const testimonials = [
     image: one,
     text: 'ThriveTop Academy has been a source of encouragement to me. my experience with the academy has been incredibly positive. It truly cares about its students and their futures, and I am proud to be associated with such an outstanding institution. It offers a comprehensive and flexible learning environment that caters to students from various backgrounds and skill levels.',
     name: 'Tutor Damilola',
-    title: 'MSc. Chemistry',
+    title: 'MSc. Public Health',
   },
   {
     id: 2,

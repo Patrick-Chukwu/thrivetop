@@ -44,7 +44,7 @@ const tutors = [
         id: 2,
         image: Damilola,
         name: 'Damilola Egwuaba',
-        subject: 'Maths/Phy',
+        subject: 'Biology/Chemistry',
         qualification: 'MSc. Public Health'
 
     },
