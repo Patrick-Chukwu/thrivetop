@@ -22,6 +22,8 @@ const Navbar = () => {
             <Link to="/about" className='font-medium text-xl hover:text-primary'>About Us</Link>
             <Link to="/portfolio" className='font-medium text-xl hover:text-primary hidden md:block'>Services</Link>
             <Link to="/blog" className='font-medium text-xl hover:text-primary hidden md:block'>Tutors</Link>
+            <Link to="/contact" className='font-medium text-xl hover:text-primary hidden md:block'>Contact Us</Link>
+
         </div>
         <div className="flex items-center justify-center gap-2">
         <div className="md:flex justify-center items-center gap-2 hidden ">
@@ -80,6 +82,11 @@ to="/about" className="text-brand font-normal text-xl block px-3 py-2 rounded-md
  to="/blog" className="text-brand font-normal text-xl block px-3 py-2 rounded-md hover:bg-primary">
             Tutors
           </Link>
+          <Link onClick={closeMenu}
+ to="/contact" className="text-brand font-normal text-xl block px-3 py-2 rounded-md hover:bg-primary">
+            Contact Us
+          </Link>
+
           <Link to="/register"  onClick={closeMenu}
  className='bg-secondary text-center  text-white py-2 px-4 w-36 hover:bg-primary font-medium hover:text-white rounded-md lg:rounded-lg md:rounded-md xl:rounded-xl '>Get Started</Link>
   <Link to="/login"  onClick={closeMenu}
