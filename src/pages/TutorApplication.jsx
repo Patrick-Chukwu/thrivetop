@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
 
 const TutorApplication = () => {
   return (
@@ -16,6 +17,7 @@ const TutorApplication = () => {
           <a href="https://docs.google.com/forms/d/e/1FAIpQLSffQMfu-pAJapvGIeIMW4VULmAUWySDN57C_3qp6VS8lu40hg/viewform?usp=sf_link" target='_blank' className='bg-secondary text-white px-4 py-2 rounded-md text-xl'>Apply Now</a>
 
         </div>
+        <Footer/>
     </div>
   )
 }

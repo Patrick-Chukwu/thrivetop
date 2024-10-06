@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import contact from '../assets/contact.webp'
 import Footer from '../components/Footer'
+import { MdCall } from 'react-icons/md'
 
 const Contact = () => {
   return (
@@ -17,7 +18,14 @@ const Contact = () => {
       </div>
 
     </section>
-    section.flex.flex
+    <section className="flex flex-col md:flex-row gap-4 p-10">
+      <div className="flex flex-col gap-4 border border-primary  p-10 justify-center items-center shadow-md">
+        <MdCall className='size-10'/>
+        <p className='text-xl font-semibold'>Talk to Sales </p>
+        <p className='md:max-w-md'>Interested in our services? Call or chat with us.</p>
+        <p className="text-secondary underline text-xl">+2347044822539</p>
+      </div>
+    </section>
         <section className="flex flex-col p-4 gap-4 max-w-3xl mx-auto">
             <h2 className='text-center font-semibold text-3xl text-primary'>For fees payment:</h2>
             <div className="flex flex-col gap-4">
