@@ -7,6 +7,8 @@ const TutorApplication = () => {
         <Navbar/>
 
         <div className="flex flex-col items-center mx-auto px-4 max-w-5xl gap-3">
+        <h2 className="text-2xl md:text-4xl text-primary  text-center font-bold">Become a tutor</h2>
+
           <p className="text-xl text-brand font-medium">
           With Thrivetop Academy, you can teach students online and fit lessons into your schedule. Simply register, deliver great lessons and get paid. It's that easy.
           </p>
