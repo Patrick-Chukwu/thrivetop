@@ -11,7 +11,11 @@ import flag from '../assets/flags.jpeg'
 const Presence = () => {
   return (
     <section className='flex flex-col justify-center items-center p-6 px-2 gap-8'>
-                <h2 className="text-2xl md:text-4xl text-primary  text-center font-bold">Our Community</h2>
+              <div className="flex gap-2 flex-col">
+              <h2 className="text-2xl md:text-4xl text-primary  text-center font-bold">Our Community</h2>
+              <p className="text-base text-brand  font-medium text-left px-2 py-1 md:text-center w-[98%] mx-auto">We have a wide coverage of clients and tutors from different parts of the world. Here are a few.</p>
+              </div>
+
                 <div className="flex flex-row gap-4 flex-wrap  mx-auto justify-center">
                 <div className="flex flex-col justify-center items-center gap-2 border border-brand p-4 rounded-md w-[47%] md:w-[30%]">
                     <img src={uk} alt="Flag of Uk" />
