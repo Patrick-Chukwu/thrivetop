@@ -13,7 +13,7 @@ const Presence = () => {
     <section className='flex flex-col justify-center items-center p-6 px-2 gap-8'>
               <div className="flex gap-2 flex-col">
               <h2 className="text-2xl md:text-4xl text-primary  text-center font-bold">Our Community</h2>
-              <p className="text-base text-brand  font-medium text-left px-2 py-1 md:text-center w-[98%] mx-auto">We have a wide coverage of clients and tutors from different parts of the world. Here are a few.</p>
+              <p className="text-base text-brand  font-medium text-left px-2 py-1 md:text-center w-[98%] mx-auto">We have a wide coverage of clients and tutors across different countries of the world.</p>
               </div>
 
                 <div className="flex flex-row gap-4 flex-wrap  mx-auto justify-center">
