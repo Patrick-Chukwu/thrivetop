@@ -1,18 +1,25 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import contact from '../assets/contact.webp'
+import Footer from '../components/Footer'
 
 const Contact = () => {
   return (
     <div className='mt-20'>
     <Navbar/>
 
-    <section className="flex flex-col md:flex-row-reverse ">
-      <img src={contact} alt="" className='w-full h-32'/>
+    <section className="flex flex-col md:flex-row-reverse bg-primary text-white justify-center items-center md:justify-between">
+      <img src={contact} alt="" className='w-full h-32 md:h-64 md:w-1/2'/>
+      <div className="flex gap-3 p-2 py-6 flex-col">
+      <h2 className="text-2xl md:text-4xl text-white  text-center font-bold">Get in touch</h2>
+      <p className="px-4 text-base">Want to get in touch? We'd love to hear from you. Here's how you can reach us.</p>
+
+      </div>
 
     </section>
+    section.flex.flex
         <section className="flex flex-col p-4 gap-4 max-w-3xl mx-auto">
-            <h2 className='text-center font-semibold text-3xl'>For fees payment:</h2>
+            <h2 className='text-center font-semibold text-3xl text-primary'>For fees payment:</h2>
             <div className="flex flex-col gap-4">
               <div className="flex justify-between">
                 <p className="font-bold">Bank: </p> <p className="font-medium">Ecobank</p>
@@ -26,6 +33,8 @@ const Contact = () => {
             </div>
 
         </section>
+
+        <Footer/>
     </div>
   )
 }
