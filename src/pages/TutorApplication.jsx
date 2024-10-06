@@ -3,9 +3,17 @@ import Navbar from '../components/Navbar'
 
 const TutorApplication = () => {
   return (
-    <div>
+    <div className='pt-24'>
         <Navbar/>
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSffQMfu-pAJapvGIeIMW4VULmAUWySDN57C_3qp6VS8lu40hg/viewform?embedded=true" width="375" height="1000" frameborder="0" marginheight="0" marginwidth="0" className='pt-20'>Loading…</iframe>
+
+        <div className="flex flex-col items-center mx-auto px-4 max-w-5xl gap-3">
+          <p className="text-xl text-brand font-medium">
+          With Thrivetop Academy, you can teach students online and fit lessons into your schedule. Simply register, deliver great lessons and get paid. It's that easy.
+          </p>
+          <p className="text-brand self-start">Join us today to become a tutor and earn money teaching what you love.</p>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSffQMfu-pAJapvGIeIMW4VULmAUWySDN57C_3qp6VS8lu40hg/viewform?usp=sf_link" target='_blank' className='bg-secondary text-white px-4 py-2 rounded-md text-xl'>Apply Now</a>
+
+        </div>
     </div>
   )
 }
