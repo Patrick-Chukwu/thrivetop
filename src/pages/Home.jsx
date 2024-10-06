@@ -13,6 +13,7 @@ import FAQSection from '../components/FAQSection'
 import Courses from '../components/Courses'
 import Parents from '../components/Parents'
 import { Link } from 'react-router-dom'
+import Presence from '../components/Presence'
 const Home = () => {
   return (
     <div className='flex flex-col'>
@@ -65,11 +66,15 @@ const Home = () => {
  className='bg-secondary text-white py-3 text-xl px-4 w-fit font-medium hover:text-white rounded-md lg:rounded-lg md:rounded-md xl:rounded-xl '>Register your child</Link>
 
         </section>
+        <section>
+        <Presence/>
+      </section>
       <section className='w-full mx-auto bg-primary pt-10'>
   
       <h2 className="text-2xl md:text-3xl font-bold text-white text-center w-full capitalize">Meet our tutors</h2>
         <TestimonialSection/>
       </section>
+     
       <section className='w-full  m-auto py-8 '>
      <FAQSection/>
       </section>
