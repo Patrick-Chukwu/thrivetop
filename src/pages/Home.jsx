@@ -52,7 +52,7 @@ const Home = () => {
         </section>
 
         <section className='py-8 md:h-dvh bg-primary'>
-        <h2 className="text-2xl md:text-3xl font-bold text-white text-center w-full p-4 capitalize">Explore our list of expert curated courses.</h2>
+        <h2 className="text-2xl md:text-3xl font-bold text-white text-center w-full p-4 capitalize">Explore our courses.</h2>
         <p className='px-4 text-center text-white md:text-xl'>Whatever your goal is, we have the perfect course to help your child meet it. </p>
  <Courses/>
         </section>
