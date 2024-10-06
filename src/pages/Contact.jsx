@@ -3,6 +3,8 @@ import Navbar from '../components/Navbar'
 import contact from '../assets/contact.webp'
 import Footer from '../components/Footer'
 import { MdCall } from 'react-icons/md'
+import { FaLocationArrow } from 'react-icons/fa6'
+import { HiLocationMarker } from 'react-icons/hi'
 
 const Contact = () => {
   return (
@@ -18,12 +20,18 @@ const Contact = () => {
       </div>
 
     </section>
-    <section className="flex flex-col md:flex-row gap-4 p-10">
+    <section className="flex flex-col md:flex-row gap-8 p-10 items-center justify-center">
       <div className="flex flex-col gap-4 border border-primary  p-10 justify-center items-center shadow-md">
         <MdCall className='size-10'/>
         <p className='text-xl font-semibold'>Talk to Sales </p>
         <p className='md:max-w-md'>Interested in our services? Call or chat with us.</p>
         <p className="text-secondary underline text-xl">+2347044822539</p>
+      </div>
+      <div className="flex flex-col gap-4 border border-primary  p-10 justify-center items-center shadow-md">
+        <HiLocationMarker className='size-10'/>
+        <p className='text-xl font-semibold'>Head Office </p>
+        <p className='md:max-w-md'>Interested in checking us out? Come to our location.</p>
+        <p className="text-secondary underline text-xl">26, Oluyole, Ibadan 110115, Oyo</p>
       </div>
     </section>
         <section className="flex flex-col p-4 gap-4 max-w-3xl mx-auto">
