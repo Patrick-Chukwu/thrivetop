@@ -24,7 +24,7 @@ const Presence = () => {
 
                 <div className="flex flex-col justify-center items-center gap-2 border w-[47%] border-brand p-4 rounded-md md:w-[30%]">
                     <img src={usa} alt="Flag of USA" />
-                    <p className='font-semibold text-base '>United State of America</p>
+                    <p className='font-semibold text-base '>United States of America</p>
                 </div>
                 <div className="flex flex-col justify-center items-center gap-2 border border-brand p-4 rounded-md w-[47%]  md:w-[30%]">
                     <img src={nigeria} alt="Flag of Nigeria" />
